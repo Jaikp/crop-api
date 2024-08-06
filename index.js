@@ -44,27 +44,27 @@ app.listen(port, () => {
 const crops = [
     // Field Crops
     {
-      "type": "field-crop",
+      "type": "field crop",
       "name": "wheat",
       "diseases": [
         {
-          "name": "Wheat-Rust",
-          "symptoms": "Symptoms of Wheat Rust include the appearance of orange or reddish-brown pustules on leaves, stems, and spikes. These pustules can rupture, releasing rust-colored spores. Affected plants often exhibit stunted growth and reduced grain yield.",
+          "name": "Wheat Rust",
+          "symptoms": "Symptomseasdasdasdasd of Wheat Rust include the appearance of orange or reddish brown pustules on leaves, stems, and spikes. These pustules can rupture, releasing rust colored spores. Affected plants often exhibit stunted growth and reduced grain yield.",
           "prevention": [
-            "1. Use rust-resistant wheat varieties.",
+            "1. Use rust resistant wheat varieties.",
             "2. Apply fungicides when necessary during wet conditions.",
             "3. Practice crop rotation to reduce disease pressure.",
             "4. Maintain proper spacing between plants.",
             "5. Monitor and manage humidity levels.",
             "6. Remove and destroy infected plant material.",
             "7. Implement good field hygiene practices.",
-            "8. Choose disease-free seeds.",
-            "9. Monitor weather conditions for rust-friendly environments.",
+            "8. Choose disease free seeds.",
+            "9. Monitor weather conditions for rust friendly environments.",
             "10. Consult with an agricultural expert for specific treatment recommendations."
           ],
           "management": [
             "1. Apply fungicides at the first sign of infection.",
-            "2. Monitor weather conditions for rust-friendly environments.",
+            "2. Monitor weather conditions for rust friendly environments.",
             "3. Remove and destroy infected plant material to reduce spore sources.",
             "4. Implement effective weed control measures.",
             "5. Promote natural predators of rust pathogens.",
@@ -75,19 +75,19 @@ const crops = [
             "10. Collaborate with local agricultural experts and extension services for guidance."
           ],
           "pesticides": [
-            "Recommended fungicides for Wheat Rust include Triazole-based or strobilurin-based fungicides such as Propiconazole or Tebuconazole. Follow manufacturer instructions for application, dosage, and safety precautions."
+            "Recommended fungicides for Wheat Rust include Triazole based or strobilurin based fungicides such as Propiconazole or Tebuconazole. Follow manufacturer instructions for application, dosage, and safety precautions."
           ]
         },
         {
-          "name": "Wheat-Smuts",
+          "name": "Wheat Smuts",
           "symptoms": "Symptoms of Wheat Smuts include the development of black, powdery spore masses on wheat heads, giving them a dirty appearance. This can result in reduced grain quality and yield.",
           "prevention": [
-            "1. Use certified disease-free seeds.",
+            "1. Use certified disease free seeds.",
             "2. Clean and sanitize planting equipment.",
             "3. Implement good field hygiene practices.",
             "4. Apply fungicides to seeds during planting.",
             "5. Practice crop rotation to reduce disease buildup.",
-            "6. Monitor weather conditions for smut-friendly environments.",
+            "6. Monitor weather conditions for smut friendly environments.",
             "7. Consult with an agricultural expert for smut management strategies.",
             "8. Maintain records of disease outbreaks and treatments.",
             "9. Conduct regular field inspections for early detection.",
@@ -95,7 +95,7 @@ const crops = [
           ],
           "management": [
             "1. Apply fungicides to seeds during planting if smut is detected.",
-            "2. Monitor weather conditions for smut-friendly environments.",
+            "2. Monitor weather conditions for smut friendly environments.",
             "3. Remove and destroy infected plant material to reduce spore sources.",
             "4. Implement effective weed control measures.",
             "5. Promote natural predators of smut pathogens.",
@@ -110,23 +110,23 @@ const crops = [
           ]
         },
         {
-          "name": "Wheat-Leaf-Spots",
+          "name": "Wheat Leaf Spots",
           "symptoms": "Symptoms of Wheat Leaf Spots include the development of small, dark brown to black spots on wheat leaves, which may coalesce into larger lesions. Severe infections can lead to reduced photosynthesis and grain yield.",
           "prevention": [
             "1. Choose wheat varieties resistant to leaf spots.",
             "2. Maintain proper soil drainage to reduce humidity.",
             "3. Space plants adequately to improve air circulation.",
             "4. Apply fungicides during wet periods.",
-            "5. Rotate crops with non-host plants to break disease cycles.",
+            "5. Rotate crops with non host plants to break disease cycles.",
             "6. Avoid excessive nitrogen fertilization, which can promote disease development.",
-            "7. Monitor weather conditions for leaf spot-friendly environments.",
+            "7. Monitor weather conditions for leaf spot friendly environments.",
             "8. Consult with an agricultural expert for specific treatment recommendations.",
             "9. Maintain records of disease outbreaks and treatments.",
             "10. Conduct regular field inspections for early detection."
           ],
           "management": [
             "1. Apply fungicides during wet periods.",
-            "2. Rotate crops with non-host plants to break disease cycles.",
+            "2. Rotate crops with non host plants to break disease cycles.",
             "3. Remove and destroy infected plant material to reduce disease spread.",
             "4. Implement effective weed control measures.",
             "5. Adjust nitrogen fertilization based on disease risk.",
@@ -141,17 +141,17 @@ const crops = [
           ]
         },
         {
-          "name": "Wheat-Yellow-Mosaic",
+          "name": "Wheat Yellow Mosaic",
           "symptoms": "Symptoms of Wheat Yellow Mosaic include the yellowing and mottling of wheat leaves, often in a mosaic pattern. Infected plants may exhibit stunted growth and reduced grain yield.",
           "prevention": [
-            "1. Use virus-tested seeds to ensure they are free from mosaic virus.",
+            "1. Use virus tested seeds to ensure they are free from mosaic virus.",
             "2. Implement proper weed control to reduce virus reservoirs.",
             "3. Monitor for aphid activity and control aphid vectors.",
             "4. Choose wheat varieties with virus resistance.",
             "5. Maintain proper soil drainage to reduce waterlogged conditions.",
             "6. Space plants adequately to improve air circulation.",
             "7. Apply insecticides when aphid populations are high.",
-            "8. Plant virus-free seeds in virus-prone areas.",
+            "8. Plant virus free seeds in virus prone areas.",
             "9. Consult with a plant pathologist for virus management strategies.",
             "10. Maintain records of disease outbreaks and treatments."
           ],
@@ -164,7 +164,7 @@ const crops = [
             "6. Maintain records of disease outbreaks and treatments.",
             "7. Collaborate with local agricultural experts and extension services for guidance.",
             "8. Implement early weed control to reduce alternate hosts for the virus.",
-            "9. Plant virus-tested seeds in virus-prone areas.",
+            "9. Plant virus tested seeds in virus prone areas.",
             "10. Adjust nitrogen fertilization based on disease risk."
           ],
           "pesticides": [
@@ -172,11 +172,11 @@ const crops = [
           ]
         },
         {
-          "name": "Wheat-Stem-Borer",
+          "name": "Wheat Stem Borer",
           "symptoms": "Symptoms of Wheat Stem Borer include wilting and lodging of wheat plants. Larval feeding can be found inside stems, resulting in reduced grain yield.",
           "prevention": [
-            "1. Plant early-maturing wheat varieties to avoid peak stem borer activity.",
-            "2. Implement crop rotation with non-host crops to disrupt stem borer life cycles.",
+            "1. Plant early maturing wheat varieties to avoid peak stem borer activity.",
+            "2. Implement crop rotation with non host crops to disrupt stem borer life cycles.",
             "3. Monitor stem borer populations regularly.",
             "4. Choose wheat varieties resistant to stem borers.",
             "5. Maintain proper soil drainage to reduce waterlogged conditions.",
@@ -206,18 +206,18 @@ const crops = [
       ]
     },
     {
-      "type": "field-crop",
+      "type": "field crop",
       "name": "rice",
       "diseases": [
         {
-          "name": "Rice-Blast",
+          "name": "Rice Blast",
           "symptoms": "Symptoms of Rice Blast include small, dark lesions with a characteristic white center on leaves, stems, and grains. Infected plants may exhibit reduced yield and grain quality.",
           "prevention": [
-            "1. Use disease-resistant rice varieties.",
-            "2. Implement crop rotation with non-host crops.",
+            "1. Use disease resistant rice varieties.",
+            "2. Implement crop rotation with non host crops.",
             "3. Maintain proper water management to avoid prolonged leaf wetness.",
             "4. Space plants adequately for air circulation.",
-            "5. Apply fungicides during disease-prone periods.",
+            "5. Apply fungicides during disease prone periods.",
             "6. Remove and destroy infected plant material.",
             "7. Practice good field hygiene."
           ],
@@ -231,18 +231,18 @@ const crops = [
             "7. Collaborate with local agricultural experts for guidance."
           ],
           "pesticides": [
-            "Recommended fungicides for Rice Blast include Triazole-based or Qo inhibitor fungicides like Propiconazole or Azoxystrobin. Follow manufacturer instructions for application, dosage, and safety precautions."
+            "Recommended fungicides for Rice Blast include Triazole based or Qo inhibitor fungicides like Propiconazole or Azoxystrobin. Follow manufacturer instructions for application, dosage, and safety precautions."
           ]
         },
         {
-          "name": "Rice-Sheath-Blight",
+          "name": "Rice Sheath Blight",
           "symptoms": "Symptoms of Rice Sheath Blight include elongated lesions on sheaths and leaves, which can lead to lodging and yield loss. Infected plants may exhibit reduced grain filling.",
           "prevention": [
-            "1. Use disease-resistant rice varieties.",
+            "1. Use disease resistant rice varieties.",
             "2. Maintain proper plant spacing for air circulation.",
             "3. Avoid excessive nitrogen fertilization.",
-            "4. Implement crop rotation with non-host crops.",
-            "5. Apply fungicides during disease-prone periods.",
+            "4. Implement crop rotation with non host crops.",
+            "5. Apply fungicides during disease prone periods.",
             "6. Monitor weather conditions for favorable disease development."
           ],
           "management": [
@@ -259,37 +259,37 @@ const crops = [
           ]
         },
         {
-          "name": "Rice-Tungro",
+          "name": "Rice Tungro",
           "symptoms": "Symptoms of Rice Tungro include stunted growth, yellowing of leaves, and reduced grain yield. Infected plants may have discolored or distorted leaves.",
           "prevention": [
-            "1. Use virus-free seeds and seedlings.",
-            "2. Control the populations of virus-carrying insects like leafhoppers and planthoppers.",
+            "1. Use virus free seeds and seedlings.",
+            "2. Control the populations of virus carrying insects like leafhoppers and planthoppers.",
             "3. Implement proper weed control to reduce alternate hosts for the virus.",
-            "4. Monitor for virus-carrying insect activity.",
-            "5. Plant virus-resistant rice varieties.",
+            "4. Monitor for virus carrying insect activity.",
+            "5. Plant virus resistant rice varieties.",
             "6. Consult with a plant pathologist for virus management strategies."
           ],
           "management": [
             "1. Remove and destroy infected plants to prevent virus spread.",
-            "2. Use insecticidal treatments when virus-carrying insect populations are high.",
+            "2. Use insecticidal treatments when virus carrying insect populations are high.",
             "3. Implement early weed control measures to reduce alternate hosts for the virus.",
-            "4. Adjust planting times to minimize exposure to virus-carrying insects.",
+            "4. Adjust planting times to minimize exposure to virus carrying insects.",
             "5. Maintain records of disease outbreaks and treatments.",
             "6. Collaborate with local agricultural experts for guidance."
           ],
           "pesticides": [
-            "Recommended insecticides for controlling virus-carrying insects include Pyrethroids or Neonicotinoids. Follow manufacturer instructions for application, dosage, and safety precautions."
+            "Recommended insecticides for controlling virus carrying insects include Pyrethroids or Neonicotinoids. Follow manufacturer instructions for application, dosage, and safety precautions."
           ]
         },
         {
-          "name": "Rice-Brown-Spot",
+          "name": "Rice Brown Spot",
           "symptoms": "Symptoms of Rice Brown Spot include circular to oval brown lesions with a yellow halo on rice leaves. Severe infections can lead to reduced grain yield.",
           "prevention": [
             "1. Choose rice varieties with brown spot resistance.",
             "2. Maintain proper plant spacing to improve air circulation.",
             "3. Avoid excessive nitrogen fertilization.",
-            "4. Implement crop rotation with non-host crops.",
-            "5. Apply fungicides during disease-prone periods.",
+            "4. Implement crop rotation with non host crops.",
+            "5. Apply fungicides during disease prone periods.",
             "6. Monitor weather conditions for favorable disease development."
           ],
           "management": [
@@ -306,11 +306,11 @@ const crops = [
           ]
         },
         {
-          "name": "Rice-Gall-Midge",
+          "name": "Rice Gall Midge",
           "symptoms": "Symptoms of Rice Gall Midge infestation include stunted growth, wilting of plants, and the presence of larvae inside rice stems. Infected plants may not produce grains.",
           "prevention": [
             "1. Use resistant rice varieties.",
-            "2. Implement crop rotation with non-host crops.",
+            "2. Implement crop rotation with non host crops.",
             "3. Monitor for gall midge populations.",
             "4. Promote natural predators of gall midge insects.",
             "5. Adjust planting times to avoid peak midge activity."
@@ -330,18 +330,18 @@ const crops = [
       ]
     },
     {
-      "type": "field-crop",
+      "type": "field crop",
       "name": "corn",
       "diseases": [
         {
-          "name": "Corn-Smuts",
-          "symptoms": "Symptoms of Corn Smuts include the development of large, gray-black galls or fungal masses on corn ears, tassels, and stalks. Infected plants may have reduced grain quality and yield.",
+          "name": "Corn Smuts",
+          "symptoms": "Symptoms of Corn Smuts include the development of large, gray black galls or fungal masses on corn ears, tassels, and stalks. Infected plants may have reduced grain quality and yield.",
           "prevention": [
-            "1. Use disease-free seeds.",
+            "1. Use disease free seeds.",
             "2. Implement good field hygiene practices.",
             "3. Apply fungicides during planting if smut is detected.",
-            "4. Rotate crops with non-host plants.",
-            "5. Monitor weather conditions for smut-friendly environments."
+            "4. Rotate crops with non host plants.",
+            "5. Monitor weather conditions for smut friendly environments."
           ],
           "management": [
             "1. Remove and destroy infected plant material.",
@@ -355,14 +355,14 @@ const crops = [
           ]
         },
         {
-          "name": "Corn-Common-Rust",
-          "symptoms": "Symptoms of Corn Common Rust include small, reddish-brown to orange pustules on corn leaves, which may later turn black. Infected plants may have reduced photosynthesis and yield.",
+          "name": "Corn Common Rust",
+          "symptoms": "Symptoms of Corn Common Rust include small, reddish brown to orange pustules on corn leaves, which may later turn black. Infected plants may have reduced photosynthesis and yield.",
           "prevention": [
-            "1. Plant rust-resistant corn varieties.",
+            "1. Plant rust resistant corn varieties.",
             "2. Apply fungicides preventively or at the first sign of infection.",
             "3. Maintain proper plant spacing for air circulation.",
-            "4. Implement crop rotation with non-host crops.",
-            "5. Monitor weather conditions for rust-friendly environments."
+            "4. Implement crop rotation with non host crops.",
+            "5. Monitor weather conditions for rust friendly environments."
           ],
           "management": [
             "1. Use fungicides preventively or at the first sign of infection.",
@@ -372,17 +372,17 @@ const crops = [
             "5. Maintain records of disease outbreaks and treatments."
           ],
           "pesticides": [
-            "Recommended fungicides for Corn Common Rust include Triazole-based or Strobilurin-based fungicides like Propiconazole or Azoxystrobin. Follow manufacturer instructions for application, dosage, and safety precautions."
+            "Recommended fungicides for Corn Common Rust include Triazole based or Strobilurin based fungicides like Propiconazole or Azoxystrobin. Follow manufacturer instructions for application, dosage, and safety precautions."
           ]
         },
         {
-          "name": "Corn-Northern-Leaf-Blight",
-          "symptoms": "Symptoms of Corn Northern Leaf Blight include the development of cigar-shaped lesions with gray centers on corn leaves. Severe infections can lead to reduced photosynthesis and yield.",
+          "name": "Corn Northern Leaf Blight",
+          "symptoms": "Symptoms of Corn Northern Leaf Blight include the development of cigar shaped lesions with gray centers on corn leaves. Severe infections can lead to reduced photosynthesis and yield.",
           "prevention": [
             "1. Choose corn varieties with Northern Leaf Blight resistance.",
             "2. Maintain proper plant spacing for air circulation.",
             "3. Avoid excessive nitrogen fertilization.",
-            "4. Implement crop rotation with non-host crops.",
+            "4. Implement crop rotation with non host crops.",
             "5. Apply fungicides preventively or at the first sign of infection."
           ],
           "management": [
@@ -397,13 +397,13 @@ const crops = [
           ]
         },
         {
-          "name": "Corn-Gray-Leaf-Spot",
+          "name": "Corn Gray Leaf Spot",
           "symptoms": "Symptoms of Corn Gray Leaf Spot include the appearance of rectangular, gray to tan lesions on corn leaves. Severe infections can lead to reduced photosynthesis and yield.",
           "prevention": [
             "1. Plant corn varieties resistant to Gray Leaf Spot.",
             "2. Maintain proper plant spacing for air circulation.",
             "3. Avoid excessive nitrogen fertilization.",
-            "4. Implement crop rotation with non-host crops.",
+            "4. Implement crop rotation with non host crops.",
             "5. Apply fungicides preventively or at the first sign of infection."
           ],
           "management": [
@@ -418,14 +418,14 @@ const crops = [
           ]
         },
         {
-          "name": "Corn-Southern-Rust",
-          "symptoms": "Symptoms of Corn Southern Rust include the development of small, circular to oval, orange to reddish-brown pustules on corn leaves, which may later turn brown. Severe infections can lead to yield loss.",
+          "name": "Corn Southern Rust",
+          "symptoms": "Symptoms of Corn Southern Rust include the development of small, circular to oval, orange to reddish brown pustules on corn leaves, which may later turn brown. Severe infections can lead to yield loss.",
           "prevention": [
-            "1. Plant rust-resistant corn varieties.",
+            "1. Plant rust resistant corn varieties.",
             "2. Apply fungicides preventively or at the first sign of infection.",
             "3. Maintain proper plant spacing for air circulation.",
-            "4. Implement crop rotation with non-host crops.",
-            "5. Monitor weather conditions for rust-friendly environments."
+            "4. Implement crop rotation with non host crops.",
+            "5. Monitor weather conditions for rust friendly environments."
           ],
           "management": [
             "1. Use fungicides preventively or at the first sign of infection.",
@@ -435,23 +435,23 @@ const crops = [
             "5. Maintain records of disease outbreaks and treatments."
           ],
           "pesticides": [
-            "Recommended fungicides for Corn Southern Rust include Triazole-based or Strobilurin-based fungicides like Propiconazole or Azoxystrobin. Follow manufacturer instructions for application, dosage, and safety precautions."
+            "Recommended fungicides for Corn Southern Rust include Triazole based or Strobilurin based fungicides like Propiconazole or Azoxystrobin. Follow manufacturer instructions for application, dosage, and safety precautions."
           ]
         }
       ]
     },
     {
-      "type": "field-crop",
+      "type": "field crop",
       "name": "cotton",
       "diseases": [
         {
-          "name": "Cotton-Leaf-Spot",
+          "name": "Cotton Leaf Spot",
           "symptoms": "Symptoms of Cotton Leaf Spot include small, dark lesions with yellow halos on cotton leaves. Severe infections can lead to defoliation and reduced fiber quality.",
           "prevention": [
             "1. Choose cotton varieties with Leaf Spot resistance.",
             "2. Maintain proper plant spacing for air circulation.",
             "3. Avoid excessive nitrogen fertilization.",
-            "4. Implement crop rotation with non-host crops.",
+            "4. Implement crop rotation with non host crops.",
             "5. Apply fungicides preventively or at the first sign of infection."
           ],
           "management": [
@@ -466,14 +466,14 @@ const crops = [
           ]
         },
         {
-          "name": "Cotton-Wilt",
+          "name": "Cotton Wilt",
           "symptoms": "Symptoms of Cotton Wilt include wilting of cotton plants, yellowing of leaves, and vascular discoloration. Infected plants may exhibit reduced yield.",
           "prevention": [
-            "1. Use disease-resistant cotton varieties.",
+            "1. Use disease resistant cotton varieties.",
             "2. Implement proper irrigation management.",
             "3. Maintain proper soil drainage.",
             "4. Avoid excessive nitrogen fertilization.",
-            "5. Plant cotton in well-drained areas.",
+            "5. Plant cotton in well drained areas.",
             "6. Monitor soil moisture levels."
           ],
           "management": [
@@ -489,14 +489,14 @@ const crops = [
           ]
         },
         {
-          "name": "Cotton-Boll-Rot",
+          "name": "Cotton Boll Rot",
           "symptoms": "Symptoms of Cotton Boll Rot include the development of brown to black fungal growth on cotton bolls. Infected bolls may split open, reducing fiber quality.",
           "prevention": [
             "1. Maintain proper plant spacing for air circulation.",
-            "2. Implement crop rotation with non-host crops.",
+            "2. Implement crop rotation with non host crops.",
             "3. Avoid excessive nitrogen fertilization.",
             "4. Apply fungicides preventively during flowering.",
-            "5. Monitor weather conditions for disease-friendly environments."
+            "5. Monitor weather conditions for disease friendly environments."
           ],
           "management": [
             "1. Use fungicides preventively during flowering.",
@@ -507,19 +507,19 @@ const crops = [
             "6. Maintain records of disease outbreaks and treatments."
           ],
           "pesticides": [
-            "Recommended fungicides for Cotton Boll Rot include Azoxystrobin or Thiophanate-methyl. Follow manufacturer instructions for application, dosage, and safety precautions."
+            "Recommended fungicides for Cotton Boll Rot include Azoxystrobin or Thiophanate methyl. Follow manufacturer instructions for application, dosage, and safety precautions."
           ]
         },
         {
-          "name": "Cotton-Verticillium-Wilt",
+          "name": "Cotton Verticillium Wilt",
           "symptoms": "Symptoms of Cotton Verticillium Wilt include wilting of cotton plants, yellowing of leaves, and vascular discoloration. Infected plants may exhibit reduced yield.",
           "prevention": [
-            "1. Use disease-resistant cotton varieties.",
+            "1. Use disease resistant cotton varieties.",
             "2. Implement proper irrigation management.",
             "3. Maintain proper soil drainage.",
             "4. Avoid excessive nitrogen fertilization.",
-            "5. Practice crop rotation with non-host crops.",
-            "6. Plant cotton in well-drained areas.",
+            "5. Practice crop rotation with non host crops.",
+            "6. Plant cotton in well drained areas.",
             "7. Monitor soil moisture levels."
           ],
           "management": [
@@ -535,13 +535,13 @@ const crops = [
           ]
         },
         {
-          "name": "Cotton-Angular-Leaf-Spot",
+          "name": "Cotton Angular Leaf Spot",
           "symptoms": "Symptoms of Cotton Angular Leaf Spot include the appearance of small, angular lesions with a dark center on cotton leaves. Severe infections can lead to defoliation and reduced fiber quality.",
           "prevention": [
             "1. Choose cotton varieties with Angular Leaf Spot resistance.",
             "2. Maintain proper plant spacing for air circulation.",
             "3. Avoid excessive nitrogen fertilization.",
-            "4. Implement crop rotation with non-host crops.",
+            "4. Implement crop rotation with non host crops.",
             "5. Apply fungicides preventively or at the first sign of infection."
           ],
           "management": [
@@ -558,17 +558,17 @@ const crops = [
       ]
     },
     {
-      "type": "field-crop",
+      "type": "field crop",
       "name": "barley",
       "diseases": [
         {
-          "name": "Barley-Leaf-Rust",
+          "name": "Barley Leaf Rust",
           "symptoms": "Barley Leaf Rust manifests as orange to brown pustules on leaves, reducing photosynthesis and yield. Infected barley plants exhibit decreased vigor.",
           "prevention": [
             "1. Opt for barley varieties resistant to Leaf Rust.",
             "2. Ensure adequate plant spacing for air circulation.",
-            "3. Avoid over-fertilization with nitrogen.",
-            "4. Implement crop rotation with non-host crops.",
+            "3. Avoid over fertilization with nitrogen.",
+            "4. Implement crop rotation with non host crops.",
             "5. Apply fungicides preventively or at first signs of infection.",
             "6. Maintain records of disease history.",
             "7. Collaborate with local agricultural experts.",
@@ -589,26 +589,26 @@ const crops = [
             "10. Develop a disease management plan."
           ],
           "pesticides": [
-            "For controlling Barley Leaf Rust, Triazole-based or Strobilurin-based fungicides like Propiconazole or Azoxystrobin are recommended. Ensure proper application, dosage, and adherence to safety precautions per the manufacturer's instructions."
+            "For controlling Barley Leaf Rust, Triazole based or Strobilurin based fungicides like Propiconazole or Azoxystrobin are recommended. Ensure proper application, dosage, and adherence to safety precautions per the manufacturer's instructions."
           ]
         },
         {
-          "name": "Barley-Powdery-Mildew",
+          "name": "Barley Powdery Mildew",
           "symptoms": "Barley Powdery Mildew is identified by white, powdery growth on leaves, impacting photosynthesis and yield. Severely infected barley plants may exhibit stunted growth.",
           "prevention": [
             "1. Choose barley varieties with Powdery Mildew resistance.",
             "2. Maintain appropriate plant spacing for ventilation.",
             "3. Avoid excessive nitrogen application.",
-            "4. Practice crop rotation with non-host crops.",
-            "5. Apply fungicides preventively during disease-prone periods.",
+            "4. Practice crop rotation with non host crops.",
+            "5. Apply fungicides preventively during disease prone periods.",
             "6. Monitor humidity levels in the field.",
             "7. Consider weather forecasts for disease risk assessment.",
             "8. Educate farmworkers on disease recognition.",
-            "9. Invest in disease-resistant seed varieties.",
+            "9. Invest in disease resistant seed varieties.",
             "10. Collaborate with agricultural extension services."
           ],
           "management": [
-            "1. Apply fungicides preventively during disease-prone periods.",
+            "1. Apply fungicides preventively during disease prone periods.",
             "2. Adjust nitrogen application to minimize disease risk.",
             "3. Encourage natural predators of Powdery Mildew.",
             "4. Implement regular field inspections for early detection.",
@@ -620,26 +620,26 @@ const crops = [
             "10. Develop a fungicide rotation plan."
           ],
           "pesticides": [
-            "To combat Barley Powdery Mildew, consider using Sulphur or Triadimefon-based fungicides. Ensure precise application, dosage, and adherence to safety instructions as per the manufacturer's recommendations."
+            "To combat Barley Powdery Mildew, consider using Sulphur or Triadimefon based fungicides. Ensure precise application, dosage, and adherence to safety instructions as per the manufacturer's recommendations."
           ]
         },
         {
-          "name": "Barley-Scald",
+          "name": "Barley Scald",
           "symptoms": "Barley Scald presents as brown lesions with yellow margins on leaves, potentially causing defoliation and yield reduction. Severely affected plants exhibit poor overall health.",
           "prevention": [
             "1. Select barley varieties with Scald resistance.",
             "2. Maintain optimal plant spacing to enhance air circulation.",
             "3. Avoid excessive nitrogen fertilization.",
-            "4. Employ crop rotation with non-host crops.",
-            "5. Apply fungicides preventively during disease-prone periods.",
-            "6. Monitor environmental conditions for Scald-friendly situations.",
+            "4. Employ crop rotation with non host crops.",
+            "5. Apply fungicides preventively during disease prone periods.",
+            "6. Monitor environmental conditions for Scald friendly situations.",
             "7. Educate farmworkers on Scald symptoms.",
-            "8. Utilize disease-free planting material.",
+            "8. Utilize disease free planting material.",
             "9. Collaborate with agricultural experts for guidance.",
             "10. Train personnel in sanitation practices."
           ],
           "management": [
-            "1. Apply fungicides preventively during disease-prone periods.",
+            "1. Apply fungicides preventively during disease prone periods.",
             "2. Adjust nitrogen fertilization based on disease risk.",
             "3. Foster beneficial organisms that control Scald pathogens.",
             "4. Conduct routine field inspections for early detection.",
@@ -651,26 +651,26 @@ const crops = [
             "10. Develop a fungicide application strategy."
           ],
           "pesticides": [
-            "For managing Barley Scald, consider using Chlorothalonil or Triadimefon-based fungicides. Adhere strictly to the manufacturer's recommendations for application, dosage, and safety precautions."
+            "For managing Barley Scald, consider using Chlorothalonil or Triadimefon based fungicides. Adhere strictly to the manufacturer's recommendations for application, dosage, and safety precautions."
           ]
         },
         {
-          "name": "Barley-Net-Blotch",
+          "name": "Barley Net Blotch",
           "symptoms": "Barley Net Blotch exhibits as elongated, dark lesions on barley leaves, potentially leading to reduced photosynthesis and yield. Severe infections can stunt plant growth.",
           "prevention": [
             "1. Opt for barley varieties resistant to Net Blotch.",
             "2. Maintain appropriate plant spacing to facilitate air circulation.",
             "3. Refrain from excessive nitrogen application.",
-            "4. Employ crop rotation with non-host crops.",
-            "5. Apply fungicides preventively during disease-prone periods.",
+            "4. Employ crop rotation with non host crops.",
+            "5. Apply fungicides preventively during disease prone periods.",
             "6. Keep an eye on weather conditions conducive to Net Blotch.",
             "7. Train farmworkers to recognize Net Blotch symptoms.",
-            "8. Invest in disease-free seed material.",
+            "8. Invest in disease free seed material.",
             "9. Seek guidance from agricultural experts.",
             "10. Implement sanitation protocols on the farm."
           ],
           "management": [
-            "1. Apply fungicides preventively during disease-prone periods.",
+            "1. Apply fungicides preventively during disease prone periods.",
             "2. Adjust nitrogen fertilization to minimize disease risk.",
             "3. Encourage natural predators of Net Blotch pathogens.",
             "4. Perform regular field inspections for early detection.",
@@ -682,16 +682,16 @@ const crops = [
             "10. Develop a fungicide rotation plan."
           ],
           "pesticides": [
-            "For effective management of Barley Net Blotch, consider utilizing Triazole-based or Strobilurin-based fungicides such as Propiconazole or Azoxystrobin. Ensure precise application, dosage, and adherence to safety precautions as per the manufacturer's guidelines."
+            "For effective management of Barley Net Blotch, consider utilizing Triazole based or Strobilurin based fungicides such as Propiconazole or Azoxystrobin. Ensure precise application, dosage, and adherence to safety precautions as per the manufacturer's guidelines."
           ]
         },
         {
-          "name": "Barley-Head-Blight",
+          "name": "Barley Head Blight",
           "symptoms": "Barley Head Blight presents as bleached or pinkish fungal growth on barley heads, which can impact grain quality and yield. Severely infected heads may exhibit reduced grain fill.",
           "prevention": [
             "1. Select barley varieties with Head Blight resistance.",
             "2. Avoid excessive nitrogen application.",
-            "3. Employ crop rotation with non-host crops.",
+            "3. Employ crop rotation with non host crops.",
             "4. Apply fungicides preventively during flowering.",
             "5. Monitor weather conditions favorable for disease development.",
             "6. Train farmworkers to identify Head Blight symptoms.",
@@ -713,20 +713,20 @@ const crops = [
             "10. Develop a fungicide rotation strategy."
           ],
           "pesticides": [
-            "To effectively manage Barley Head Blight, consider employing Triazole-based or Strobilurin-based fungicides like Propiconazole or Azoxystrobin. Adhere strictly to the manufacturer's recommendations for application, dosage, and safety precautions."
+            "To effectively manage Barley Head Blight, consider employing Triazole based or Strobilurin based fungicides like Propiconazole or Azoxystrobin. Adhere strictly to the manufacturer's recommendations for application, dosage, and safety precautions."
           ]
         }
       ]
     },
     {
-      "type": "field-crop",
+      "type": "field crop",
       "name": "jute",
       "diseases": [
         {
-          "name": "Jute-Yellow-Mosaic",
-          "symptoms": "Jute Yellow Mosaic presents as yellowing and mosaic-like patterns on jute leaves, stunting plant growth and affecting fiber quality.",
+          "name": "Jute Yellow Mosaic",
+          "symptoms": "Jute Yellow Mosaic presents as yellowing and mosaic like patterns on jute leaves, stunting plant growth and affecting fiber quality.",
           "prevention": [
-            "1. Plant virus-tested jute seeds.",
+            "1. Plant virus tested jute seeds.",
             "2. Control aphid vectors through insecticide applications.",
             "3. Implement proper weed management to reduce virus reservoirs.",
             "4. Use resistant jute varieties where available.",
@@ -745,7 +745,7 @@ const crops = [
             "5. Conduct regular field inspections for early detection.",
             "6. Maintain records of disease outbreaks and treatments.",
             "7. Utilize resistant jute varieties if feasible.",
-            "8. Implement crop rotation with non-host crops.",
+            "8. Implement crop rotation with non host crops.",
             "9. Manage irrigation to avoid water stress.",
             "10. Train farm personnel in virus management practices."
           ],
@@ -754,14 +754,14 @@ const crops = [
           ]
         },
         {
-          "name": "Jute-Stem-Rot",
+          "name": "Jute Stem Rot",
           "symptoms": "Jute Stem Rot is characterized by dark lesions on jute stems, causing wilting and plant collapse. The disease can lead to significant fiber quality and yield losses.",
           "prevention": [
-            "1. Select disease-resistant jute varieties.",
-            "2. Practice proper crop rotation with non-host crops.",
+            "1. Select disease resistant jute varieties.",
+            "2. Practice proper crop rotation with non host crops.",
             "3. Maintain optimal plant spacing for air circulation.",
             "4. Avoid excessive nitrogen fertilization.",
-            "5. Ensure well-drained soil conditions.",
+            "5. Ensure well drained soil conditions.",
             "6. Prevent waterlogging through proper irrigation management.",
             "7. Promote field sanitation to reduce disease carryover.",
             "8. Monitor for early symptoms in the field.",
@@ -775,32 +775,32 @@ const crops = [
             "4. Maintain proper field drainage to prevent waterlogged conditions.",
             "5. Conduct regular field inspections for early detection.",
             "6. Maintain records of disease outbreaks and treatments.",
-            "7. Use disease-free planting material.",
+            "7. Use disease free planting material.",
             "8. Isolate heavily affected areas to prevent further spread.",
             "9. Adjust irrigation practices to avoid moisture stress.",
             "10. Develop a Stem Rot management plan."
           ],
           "pesticides": [
-            "For managing Jute Stem Rot, consider using fungicides like Thiophanate-methyl or Mancozeb. Ensure precise application, dosage, and adherence to safety precautions as per the manufacturer's recommendations."
+            "For managing Jute Stem Rot, consider using fungicides like Thiophanate methyl or Mancozeb. Ensure precise application, dosage, and adherence to safety precautions as per the manufacturer's recommendations."
           ]
         },
         {
-          "name": "Jute-Powdery-Mildew",
+          "name": "Jute Powdery Mildew",
           "symptoms": "Jute Powdery Mildew manifests as white, powdery growth on jute leaves, affecting photosynthesis and fiber quality. Severe infections can lead to defoliation.",
           "prevention": [
             "1. Opt for jute varieties resistant to Powdery Mildew.",
             "2. Maintain proper plant spacing for ventilation.",
             "3. Avoid excessive nitrogen application.",
-            "4. Practice crop rotation with non-host crops.",
-            "5. Apply fungicides preventively during disease-prone periods.",
+            "4. Practice crop rotation with non host crops.",
+            "5. Apply fungicides preventively during disease prone periods.",
             "6. Monitor humidity levels in the field.",
             "7. Consider weather forecasts for disease risk assessment.",
             "8. Educate farmworkers on disease recognition.",
-            "9. Invest in disease-resistant seed varieties.",
+            "9. Invest in disease resistant seed varieties.",
             "10. Collaborate with agricultural extension services."
           ],
           "management": [
-            "1. Apply fungicides preventively during disease-prone periods.",
+            "1. Apply fungicides preventively during disease prone periods.",
             "2. Adjust nitrogen application to minimize disease risk.",
             "3. Encourage natural predators of Powdery Mildew pathogens.",
             "4. Perform regular field inspections for early detection.",
@@ -816,13 +816,13 @@ const crops = [
           ]
         },
         {
-          "name": "Jute-Bacterial-Blight",
-          "symptoms": "Jute Bacterial Blight displays as water-soaked, dark lesions on jute leaves, eventually causing tissue necrosis and defoliation. The disease can result in significant yield losses.",
+          "name": "Jute Bacterial Blight",
+          "symptoms": "Jute Bacterial Blight displays as water soaked, dark lesions on jute leaves, eventually causing tissue necrosis and defoliation. The disease can result in significant yield losses.",
           "prevention": [
-            "1. Use disease-free jute seeds from reputable sources.",
+            "1. Use disease free jute seeds from reputable sources.",
             "2. Maintain proper plant spacing for air circulation.",
             "3. Avoid overhead irrigation to minimize leaf wetness.",
-            "4. Practice crop rotation with non-host crops.",
+            "4. Practice crop rotation with non host crops.",
             "5. Promote field sanitation and remove infected plant material.",
             "6. Adjust nitrogen application based on disease risk.",
             "7. Educate farmworkers on disease recognition and prevention.",
@@ -837,23 +837,23 @@ const crops = [
             "4. Avoid overhead irrigation to reduce leaf wetness.",
             "5. Conduct regular field inspections for early detection.",
             "6. Maintain records of disease outbreaks and treatments.",
-            "7. Use disease-free planting material.",
+            "7. Use disease free planting material.",
             "8. Isolate severely affected areas for containment.",
             "9. Monitor jute health closely.",
             "10. Develop a Bacterial Blight management plan."
           ],
           "pesticides": [
-            "For managing Jute Bacterial Blight, consider copper-based fungicides or bactericides. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
+            "For managing Jute Bacterial Blight, consider copper based fungicides or bactericides. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
           ]
         },
         {
-          "name": "Jute-Root-Rot",
-          "symptoms": "Jute Root Rot is characterized by brown, decaying roots and reduced plant vigor. Above-ground symptoms include wilting and poor fiber quality.",
+          "name": "Jute Root Rot",
+          "symptoms": "Jute Root Rot is characterized by brown, decaying roots and reduced plant vigor. Above ground symptoms include wilting and poor fiber quality.",
           "prevention": [
-            "1. Practice crop rotation with non-host crops.",
+            "1. Practice crop rotation with non host crops.",
             "2. Ensure proper soil drainage to prevent waterlogging.",
             "3. Maintain optimal planting depth.",
-            "4. Use disease-free planting material.",
+            "4. Use disease free planting material.",
             "5. Avoid excessive nitrogen application.",
             "6. Educate farmworkers on disease recognition and prevention.",
             "7. Monitor soil moisture levels.",
@@ -868,23 +868,23 @@ const crops = [
             "4. Maintain proper field drainage to prevent waterlogged conditions.",
             "5. Conduct regular field inspections for early detection.",
             "6. Maintain records of disease outbreaks and treatments.",
-            "7. Use disease-resistant jute varieties if available.",
+            "7. Use disease resistant jute varieties if available.",
             "8. Isolate heavily affected areas for containment.",
             "9. Monitor jute health and root quality closely.",
             "10. Develop a Root Rot management plan."
           ],
           "pesticides": [
-            "For effective management of Jute Root Rot, consider using fungicides like Thiophanate-methyl or Mancozeb. Adhere strictly to the manufacturer's recommendations for application, dosage, and safety precautions."
+            "For effective management of Jute Root Rot, consider using fungicides like Thiophanate methyl or Mancozeb. Adhere strictly to the manufacturer's recommendations for application, dosage, and safety precautions."
           ]
         }
       ]
     },
     {
-      "type": "field-crop",
+      "type": "field crop",
       "name": "tea",
       "diseases": [
         {
-          "name": "Tea-Leaf-Blight",
+          "name": "Tea Leaf Blight",
           "symptoms": "Tea Leaf Blight is identified by brown to black lesions on tea leaves, leading to defoliation and reduced tea quality. Severely affected bushes exhibit stunted growth.",
           "prevention": [
             "1. Plant tea varieties resistant to Leaf Blight.",
@@ -905,18 +905,18 @@ const crops = [
             "4. Avoid overhead irrigation to minimize leaf wetness.",
             "5. Conduct regular field inspections for early detection.",
             "6. Maintain meticulous records of disease outbreaks and treatments.",
-            "7. Use disease-free planting material.",
+            "7. Use disease free planting material.",
             "8. Isolate severely affected areas for containment.",
             "9. Monitor tea health and quality closely.",
             "10. Develop a Leaf Blight management plan."
           ],
           "pesticides": [
-            "For effective management of Tea Leaf Blight, consider using fungicides like Copper-based products or Mancozeb. Follow the manufacturer's recommendations for precise application, dosage, and safety precautions."
+            "For effective management of Tea Leaf Blight, consider using fungicides like Copper based products or Mancozeb. Follow the manufacturer's recommendations for precise application, dosage, and safety precautions."
           ]
         },
         {
-          "name": "Tea-Rust",
-          "symptoms": "Tea Rust appears as rusty-orange pustules on the undersides of tea leaves, causing reduced photosynthesis and lower tea quality. Severe infections can lead to leaf drop and yield loss.",
+          "name": "Tea Rust",
+          "symptoms": "Tea Rust appears as rusty orange pustules on the undersides of tea leaves, causing reduced photosynthesis and lower tea quality. Severe infections can lead to leaf drop and yield loss.",
           "prevention": [
             "1. Opt for tea varieties resistant to Rust.",
             "2. Maintain appropriate plant spacing for ventilation.",
@@ -936,23 +936,23 @@ const crops = [
             "4. Avoid overhead irrigation to minimize leaf wetness.",
             "5. Conduct regular field inspections for early detection.",
             "6. Maintain detailed records of disease outbreaks and treatments.",
-            "7. Use disease-free planting material.",
+            "7. Use disease free planting material.",
             "8. Isolate severely affected areas for containment.",
             "9. Monitor tea health and quality closely.",
             "10. Develop a Rust management plan."
           ],
           "pesticides": [
-            "For effective management of Tea Rust, consider using Copper-based products or Mancozeb-based fungicides. Adhere strictly to the manufacturer's recommendations for application, dosage, and safety precautions."
+            "For effective management of Tea Rust, consider using Copper based products or Mancozeb based fungicides. Adhere strictly to the manufacturer's recommendations for application, dosage, and safety precautions."
           ]
         },
         {
-          "name": "Tea-Wilt",
+          "name": "Tea Wilt",
           "symptoms": "Tea Wilt is characterized by wilting and yellowing of tea leaves, often accompanied by blackening of roots. Severe infections lead to plant death and yield loss.",
           "prevention": [
-            "1. Use disease-free tea planting material from reputable sources.",
+            "1. Use disease free tea planting material from reputable sources.",
             "2. Implement proper soil drainage to avoid waterlogged conditions.",
             "3. Avoid excessive nitrogen fertilization.",
-            "4. Practice crop rotation with non-host crops.",
+            "4. Practice crop rotation with non host crops.",
             "5. Promote good field sanitation.",
             "6. Adjust irrigation practices to prevent water stress.",
             "7. Monitor soil moisture levels.",
@@ -967,7 +967,7 @@ const crops = [
             "4. Maintain proper soil drainage to prevent waterlogged conditions.",
             "5. Conduct regular field inspections for early detection.",
             "6. Maintain detailed records of disease outbreaks and treatments.",
-            "7. Use disease-resistant tea varieties if available.",
+            "7. Use disease resistant tea varieties if available.",
             "8. Isolate heavily affected areas for containment.",
             "9. Monitor tea health and root quality closely.",
             "10. Develop a Wilt management plan."
@@ -977,7 +977,7 @@ const crops = [
           ]
         },
         {
-          "name": "Tea-Canker",
+          "name": "Tea Canker",
           "symptoms": "Tea Canker is identified by dark, sunken lesions on tea branches and stems, leading to dieback and reduced yield. Severe infections can girdle stems.",
           "prevention": [
             "1. Prune and remove infected tea branches regularly.",
@@ -997,7 +997,7 @@ const crops = [
             "3. Promote wound healing and plant health through cultural practices.",
             "4. Conduct regular field inspections for early detection.",
             "5. Maintain detailed records of disease outbreaks and treatments.",
-            "6. Use disease-free planting material.",
+            "6. Use disease free planting material.",
             "7. Isolate heavily affected areas for containment.",
             "8. Monitor tea plant health closely.",
             "9. Develop a Canker management plan.",
@@ -1010,15 +1010,15 @@ const crops = [
       ] 
     },
     {
-      "type": "field-crop",
+      "type": "field crop",
       "name": "sugarcane",
       "diseases": [
         {
-          "name": "Sugarcane-Red-Rot",
+          "name": "Sugarcane Red Rot",
           "symptoms": "Sugarcane Red Rot manifests as red to brown lesions on lower stems, causing wilting, lodging, and yield reduction. Severe infections can lead to plant death.",
           "prevention": [
-            "1. Use disease-free sugarcane planting material from reliable sources.",
-            "2. Practice crop rotation with non-host crops.",
+            "1. Use disease free sugarcane planting material from reliable sources.",
+            "2. Practice crop rotation with non host crops.",
             "3. Maintain optimal planting depth to prevent crown exposure.",
             "4. Promote good field sanitation to reduce disease carryover.",
             "5. Adjust nitrogen fertilization to minimize disease risk.",
@@ -1035,7 +1035,7 @@ const crops = [
             "4. Maintain proper soil drainage to prevent waterlogged conditions.",
             "5. Conduct regular field inspections for early detection.",
             "6. Maintain detailed records of disease outbreaks and treatments.",
-            "7. Use disease-resistant sugarcane varieties if available.",
+            "7. Use disease resistant sugarcane varieties if available.",
             "8. Isolate heavily affected areas for containment.",
             "9. Monitor sugarcane health and root quality closely.",
             "10. Develop a Red Rot management plan."
@@ -1045,10 +1045,10 @@ const crops = [
           ]
         },
         {
-          "name": "Sugarcane-Smuts",
+          "name": "Sugarcane Smuts",
           "symptoms": "Sugarcane Smuts appear as black, powdery masses on sugarcane buds and shoots, leading to stunted growth and reduced yield.",
           "prevention": [
-            "1. Use disease-free sugarcane planting material from reputable sources.",
+            "1. Use disease free sugarcane planting material from reputable sources.",
             "2. Treat sugarcane setts with fungicides before planting.",
             "3. Promote field sanitation to reduce disease carryover.",
             "4. Adjust nitrogen fertilization to minimize disease risk.",
@@ -1069,17 +1069,17 @@ const crops = [
             "7. Monitor sugarcane health and shoot quality closely.",
             "8. Develop a Smuts management plan.",
             "9. Consider genetic resistance in planting decisions.",
-            "10. Implement disease-free sett treatment practices."
+            "10. Implement disease free sett treatment practices."
           ],
           "pesticides": [
             "For managing Sugarcane Smuts, consult with local agricultural experts for suitable fungicides. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
           ]
         },
         {
-          "name": "Sugarcane-Yellow-Leaf-Syndrome",
+          "name": "Sugarcane Yellow Leaf Syndrome",
           "symptoms": "Sugarcane Yellow Leaf Syndrome is characterized by yellowing of older leaves and overall stunted growth, leading to reduced sugar content and yield.",
           "prevention": [
-            "1. Use disease-free and virus-tested sugarcane planting material.",
+            "1. Use disease free and virus tested sugarcane planting material.",
             "2. Control aphid vectors through insecticide applications.",
             "3. Promote good field sanitation to reduce disease spread.",
             "4. Adjust nitrogen fertilization to minimize disease risk.",
@@ -1107,10 +1107,10 @@ const crops = [
           ]
         },
         {
-          "name": "Sugarcane-Leaf-Scald",
+          "name": "Sugarcane Leaf Scald",
           "symptoms": "Sugarcane Leaf Scald presents as white, elongated lesions on sugarcane leaves, often accompanied by leaf twisting and reduced sugar content. Severe infections can lead to yield loss.",
           "prevention": [
-            "1. Use disease-free sugarcane planting material from reputable sources.",
+            "1. Use disease free sugarcane planting material from reputable sources.",
             "2. Maintain proper plant spacing for ventilation.",
             "3. Avoid overhead irrigation to reduce leaf wetness.",
             "4. Promote good field sanitation to reduce disease spread.",
@@ -1128,7 +1128,7 @@ const crops = [
             "4. Avoid overhead irrigation to minimize leaf wetness.",
             "5. Conduct regular field inspections for early detection.",
             "6. Maintain detailed records of disease outbreaks and treatments.",
-            "7. Use disease-free planting material.",
+            "7. Use disease free planting material.",
             "8. Isolate heavily affected areas for containment.",
             "9. Monitor sugarcane health and leaf quality closely.",
             "10. Develop a Leaf Scald management plan."
@@ -1138,10 +1138,10 @@ const crops = [
           ]
         },
         {
-          "name": "Sugarcane-Smut",
-          "symptoms": "Sugarcane Smut is identified by black, soot-like masses on sugarcane shoots and leaves, causing stunted growth and reduced yield.",
+          "name": "Sugarcane Smut",
+          "symptoms": "Sugarcane Smut is identified by black, soot like masses on sugarcane shoots and leaves, causing stunted growth and reduced yield.",
           "prevention": [
-            "1. Use disease-free sugarcane planting material from reliable sources.",
+            "1. Use disease free sugarcane planting material from reliable sources.",
             "2. Treat sugarcane setts with fungicides before planting.",
             "3. Promote good field sanitation to reduce disease carryover.",
             "4. Adjust nitrogen fertilization to minimize disease risk.",
@@ -1162,7 +1162,7 @@ const crops = [
             "7. Monitor sugarcane health and shoot quality closely.",
             "8. Develop a Smut management plan.",
             "9. Consider genetic resistance in planting decisions.",
-            "10. Implement disease-free sett treatment practices."
+            "10. Implement disease free sett treatment practices."
           ],
           "pesticides": [
             "For managing Sugarcane Smut, consult with local agricultural experts for suitable fungicides. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
@@ -1171,14 +1171,14 @@ const crops = [
       ]
     },
     {
-      "type": "field-crop",
-      "name": "moong-dal",
+      "type": "field crop",
+      "name": "moong dal",
       "diseases": [
         {
-          "name": "Moong-Dal-Yellow-Mosaic",
-          "symptoms": "Moong Dal Yellow Mosaic presents as yellowing and mosaic-like patterns on moong dal leaves, stunting plant growth and affecting yield quality.",
+          "name": "Moong Dal Yellow Mosaic",
+          "symptoms": "Moong Dal Yellow Mosaic presents as yellowing and mosaic like patterns on moong dal leaves, stunting plant growth and affecting yield quality.",
           "prevention": [
-            "1. Plant virus-tested moong dal seeds.",
+            "1. Plant virus tested moong dal seeds.",
             "2. Control whitefly vectors through insecticide applications.",
             "3. Implement proper weed management to reduce virus reservoirs.",
             "4. Use resistant moong dal varieties where available.",
@@ -1197,7 +1197,7 @@ const crops = [
             "5. Conduct regular field inspections for early detection.",
             "6. Maintain records of disease outbreaks and treatments.",
             "7. Utilize resistant moong dal varieties if feasible.",
-            "8. Implement crop rotation with non-host crops.",
+            "8. Implement crop rotation with non host crops.",
             "9. Manage irrigation to avoid water stress.",
             "10. Train farm personnel in virus management practices."
           ],
@@ -1206,8 +1206,8 @@ const crops = [
           ]
         },
         {
-          "name": "Moong-Dal-Rust",
-          "symptoms": "Moong Dal Rust appears as rusty-brown pustules on the undersides of moong dal leaves, causing reduced photosynthesis and lower yield quality. Severe infections can lead to defoliation.",
+          "name": "Moong Dal Rust",
+          "symptoms": "Moong Dal Rust appears as rusty brown pustules on the undersides of moong dal leaves, causing reduced photosynthesis and lower yield quality. Severe infections can lead to defoliation.",
           "prevention": [
             "1. Opt for moong dal varieties resistant to Rust.",
             "2. Maintain appropriate plant spacing for ventilation.",
@@ -1218,7 +1218,7 @@ const crops = [
             "7. Monitor weather conditions conducive to Rust development.",
             "8. Collaborate with local agricultural experts for guidance.",
             "9. Educate farmworkers on disease recognition and prevention.",
-            "10. Apply fungicides preventively during disease-prone periods."
+            "10. Apply fungicides preventively during disease prone periods."
           ],
           "management": [
             "1. Prune and remove infected moong dal leaves to limit disease spread.",
@@ -1227,32 +1227,32 @@ const crops = [
             "4. Avoid overhead irrigation to minimize leaf wetness.",
             "5. Conduct regular field inspections for early detection.",
             "6. Maintain detailed records of disease outbreaks and treatments.",
-            "7. Use disease-free planting material.",
+            "7. Use disease free planting material.",
             "8. Isolate heavily affected areas for containment.",
             "9. Monitor moong dal health and leaf quality closely.",
             "10. Develop a Rust management plan."
           ],
           "pesticides": [
-            "For effective management of Moong Dal Rust, consider using Copper-based products or Mancozeb-based fungicides. Adhere strictly to the manufacturer's recommendations for application, dosage, and safety precautions."
+            "For effective management of Moong Dal Rust, consider using Copper based products or Mancozeb based fungicides. Adhere strictly to the manufacturer's recommendations for application, dosage, and safety precautions."
           ]
         },
         {
-          "name": "Moong-Dal-Powdery-Mildew",
+          "name": "Moong Dal Powdery Mildew",
           "symptoms": "Moong Dal Powdery Mildew manifests as white, powdery growth on moong dal leaves, affecting photosynthesis and yield quality. Severe infections can lead to defoliation.",
           "prevention": [
             "1. Opt for moong dal varieties resistant to Powdery Mildew.",
             "2. Maintain proper plant spacing for ventilation.",
             "3. Avoid excessive nitrogen application.",
-            "4. Practice crop rotation with non-host crops.",
-            "5. Apply fungicides preventively during disease-prone periods.",
+            "4. Practice crop rotation with non host crops.",
+            "5. Apply fungicides preventively during disease prone periods.",
             "6. Monitor humidity levels in the field.",
             "7. Consider weather forecasts for disease risk assessment.",
             "8. Educate farmworkers on disease recognition.",
-            "9. Invest in disease-resistant seed varieties.",
+            "9. Invest in disease resistant seed varieties.",
             "10. Collaborate with agricultural extension services."
           ],
           "management": [
-            "1. Apply fungicides preventively during disease-prone periods.",
+            "1. Apply fungicides preventively during disease prone periods.",
             "2. Adjust nitrogen application to minimize disease risk.",
             "3. Encourage natural predators of Powdery Mildew pathogens.",
             "4. Perform regular field inspections for early detection.",
@@ -1268,13 +1268,13 @@ const crops = [
           ]
         },
         {
-          "name": "Moong-Dal-Anthracnose",
+          "name": "Moong Dal Anthracnose",
           "symptoms": "Moong Dal Anthracnose displays as dark, sunken lesions on moong dal pods, seeds, and stems, leading to reduced yield quality. Severe infections can result in pod and seed rot.",
           "prevention": [
-            "1. Use disease-free moong dal seeds from reputable sources.",
+            "1. Use disease free moong dal seeds from reputable sources.",
             "2. Maintain proper plant spacing for air circulation.",
             "3. Avoid overhead irrigation to minimize moisture on pods and seeds.",
-            "4. Practice crop rotation with non-host crops.",
+            "4. Practice crop rotation with non host crops.",
             "5. Promote field sanitation and remove infected plant material.",
             "6. Adjust nitrogen application based on disease risk.",
             "7. Educate farmworkers on disease recognition and prevention.",
@@ -1289,7 +1289,7 @@ const crops = [
             "4. Avoid overhead irrigation to reduce moisture on pods.",
             "5. Conduct regular field inspections for early detection.",
             "6. Maintain records of disease outbreaks and treatments.",
-            "7. Use disease-resistant moong dal varieties if available.",
+            "7. Use disease resistant moong dal varieties if available.",
             "8. Isolate heavily affected areas for containment.",
             "9. Monitor moong dal pod and seed quality closely.",
             "10. Develop an Anthracnose management plan."
@@ -1299,22 +1299,22 @@ const crops = [
           ]
         },
         {
-          "name": "Moong-Dal-Leaf-Spot",
+          "name": "Moong Dal Leaf Spot",
           "symptoms": "Moong Dal Leaf Spot is identified by dark lesions on moong dal leaves, often with a yellow halo, leading to defoliation and reduced yield quality.",
           "prevention": [
             "1. Opt for moong dal varieties resistant to Leaf Spot.",
             "2. Maintain proper plant spacing for air circulation.",
             "3. Avoid excessive nitrogen application.",
-            "4. Practice crop rotation with non-host crops.",
-            "5. Apply fungicides preventively during disease-prone periods.",
+            "4. Practice crop rotation with non host crops.",
+            "5. Apply fungicides preventively during disease prone periods.",
             "6. Monitor humidity levels in the field.",
             "7. Consider weather forecasts for disease risk assessment.",
             "8. Educate farmworkers on disease recognition.",
-            "9. Invest in disease-resistant seed varieties.",
+            "9. Invest in disease resistant seed varieties.",
             "10. Collaborate with agricultural extension services."
           ],
           "management": [
-            "1. Apply fungicides preventively during disease-prone periods.",
+            "1. Apply fungicides preventively during disease prone periods.",
             "2. Adjust nitrogen application to minimize disease risk.",
             "3. Encourage natural predators of Leaf Spot pathogens.",
             "4. Perform regular field inspections for early detection.",
@@ -1332,14 +1332,14 @@ const crops = [
       ]
     },
     {
-      "type": "fruit-tree",
+      "type": "fruit tree",
       "name": "apple",
       "diseases": [
         {
-          "name": "Apple-Scab",
+          "name": "Apple Scab",
           "symptoms": "Apple Scab appears as dark, scaly lesions on apple leaves, fruit, and stems, affecting fruit quality and tree health. Severe infections lead to defoliation and reduced yield.",
           "prevention": [
-            "1. Plant scab-resistant apple varieties.",
+            "1. Plant scab resistant apple varieties.",
             "2. Prune trees to promote air circulation and sunlight penetration.",
             "3. Remove and destroy fallen leaves and infected fruit.",
             "4. Apply fungicides preventively during the growing season.",
@@ -1356,7 +1356,7 @@ const crops = [
             "3. Promote natural predators of scab pathogens.",
             "4. Conduct regular orchard inspections for early detection.",
             "5. Maintain detailed records of disease outbreaks and treatments.",
-            "6. Use scab-resistant apple varieties where possible.",
+            "6. Use scab resistant apple varieties where possible.",
             "7. Isolate severely affected trees or areas for containment.",
             "8. Monitor tree health and fruit quality closely.",
             "9. Develop a scab management plan.",
@@ -1367,14 +1367,14 @@ const crops = [
           ]
         },
         {
-          "name": "Apple-Fire-Blight",
+          "name": "Apple Fire Blight",
           "symptoms": "Apple Fire Blight presents as wilting, blackening, and 'shepherd's crook' appearance in branches, often with ooze. Severe infections can lead to tree dieback and fruit loss.",
           "prevention": [
-            "1. Plant fire blight-resistant apple varieties.",
+            "1. Plant fire blight resistant apple varieties.",
             "2. Prune regularly to remove infected branches and maintain open canopies.",
             "3. Avoid excessive nitrogen fertilization.",
             "4. Maintain orchard hygiene by removing diseased plant material.",
-            "5. Monitor for disease-prone weather conditions.",
+            "5. Monitor for disease prone weather conditions.",
             "6. Collaborate with local agricultural experts for guidance.",
             "7. Educate orchard workers on disease recognition and prevention.",
             "8. Implement strict sanitation protocols during orchard operations.",
@@ -1387,7 +1387,7 @@ const crops = [
             "3. Promote natural predators of fire blight bacteria.",
             "4. Conduct regular orchard inspections for early detection.",
             "5. Maintain detailed records of disease outbreaks and treatments.",
-            "6. Use fire blight-resistant apple varieties if available.",
+            "6. Use fire blight resistant apple varieties if available.",
             "7. Isolate severely affected trees or areas for containment.",
             "8. Monitor tree health and fruit quality closely.",
             "9. Develop a fire blight management plan.",
@@ -1398,22 +1398,22 @@ const crops = [
           ]
         },
         {
-          "name": "Apple-Powdery-Mildew",
+          "name": "Apple Powdery Mildew",
           "symptoms": "Apple Powdery Mildew manifests as white, powdery growth on apple leaves, shoots, and fruit, affecting photosynthesis and fruit quality. Severe infections can lead to defoliation.",
           "prevention": [
-            "1. Choose powdery mildew-resistant apple varieties.",
+            "1. Choose powdery mildew resistant apple varieties.",
             "2. Maintain proper tree spacing to enhance air circulation.",
-            "3. Apply fungicides preventively during disease-prone periods.",
+            "3. Apply fungicides preventively during disease prone periods.",
             "4. Avoid excessive nitrogen application.",
             "5. Prune to improve sunlight penetration and reduce humidity.",
             "6. Monitor humidity levels in the orchard.",
             "7. Collaborate with local agricultural experts for advice.",
             "8. Educate orchard workers on disease recognition and prevention.",
             "9. Adjust irrigation practices to minimize leaf wetness.",
-            "10. Use disease-free planting material."
+            "10. Use disease free planting material."
           ],
           "management": [
-            "1. Apply fungicides preventively during disease-prone periods.",
+            "1. Apply fungicides preventively during disease prone periods.",
             "2. Adjust nitrogen application to minimize disease risk.",
             "3. Promote natural predators of powdery mildew pathogens.",
             "4. Conduct regular orchard inspections for early detection.",
@@ -1429,11 +1429,11 @@ const crops = [
           ]
         },
         {
-          "name": "Apple-Cedar-Apple-Rust",
-          "symptoms": "Apple Cedar Apple Rust is identified by orange, spore-producing lesions on apple leaves and fruit, leading to reduced fruit quality. It requires an alternate host, such as cedar or juniper.",
+          "name": "Apple Cedar Apple Rust",
+          "symptoms": "Apple Cedar Apple Rust is identified by orange, spore producing lesions on apple leaves and fruit, leading to reduced fruit quality. It requires an alternate host, such as cedar or juniper.",
           "prevention": [
             "1. Manage and remove nearby cedar or juniper hosts.",
-            "2. Apply fungicides preventively during disease-prone periods.",
+            "2. Apply fungicides preventively during disease prone periods.",
             "3. Prune to improve air circulation in the orchard.",
             "4. Educate orchard workers on disease recognition and prevention.",
             "5. Collaborate with local agricultural experts for guidance.",
@@ -1460,10 +1460,10 @@ const crops = [
           ]
         },
         {
-          "name": "Apple-Black-Rot",
+          "name": "Apple Black Rot",
           "symptoms": "Apple Black Rot exhibits as circular, black lesions on apple fruit, often with concentric rings, causing fruit rot and loss. It thrives in wet conditions.",
           "prevention": [
-            "1. Apply fungicides preventively during disease-prone periods.",
+            "1. Apply fungicides preventively during disease prone periods.",
             "2. Prune to improve air circulation and reduce humidity in the orchard.",
             "3. Remove and destroy infected fruit and plant material.",
             "4. Maintain proper tree spacing for ventilation.",
@@ -1471,7 +1471,7 @@ const crops = [
             "6. Collaborate with local agricultural experts for guidance.",
             "7. Adjust irrigation practices to minimize leaf wetness.",
             "8. Monitor weather conditions conducive to black rot development.",
-            "9. Use disease-resistant apple varieties if available.",
+            "9. Use disease resistant apple varieties if available.",
             "10. Implement strict sanitation protocols during orchard operations."
           ],
           "management": [
@@ -1487,21 +1487,21 @@ const crops = [
             "10. Implement proper pruning techniques."
           ],
           "pesticides": [
-            "For effective management of Apple Black Rot, consult with local agricultural experts for suitable fungicides such as Thiophanate-methyl or Captan. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
+            "For effective management of Apple Black Rot, consult with local agricultural experts for suitable fungicides such as Thiophanate methyl or Captan. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
           ]
         }
       ]
     },
     {
-      "type": "fruit-tree",
+      "type": "fruit tree",
       "name": "mango",
       "diseases": [
         {
-          "name": "Mango-Anthracnose",
+          "name": "Mango Anthracnose",
           "symptoms": "Mango Anthracnose manifests as dark, sunken lesions on mango fruit, leaves, and stems, often with pink spore masses. It leads to fruit rot, defoliation, and yield loss.",
           "prevention": [
             "1. Prune to improve air circulation in the orchard.",
-            "2. Apply copper-based fungicides preventively during flowering and fruit setting.",
+            "2. Apply copper based fungicides preventively during flowering and fruit setting.",
             "3. Remove and destroy infected fruit and plant material.",
             "4. Practice proper sanitation to limit disease spread.",
             "5. Monitor humidity levels in the orchard.",
@@ -1513,7 +1513,7 @@ const crops = [
           ],
           "management": [
             "1. Remove and destroy infected mango fruit and plant material.",
-            "2. Apply copper-based fungicides as directed by experts.",
+            "2. Apply copper based fungicides as directed by experts.",
             "3. Promote natural predators of Anthracnose pathogens.",
             "4. Conduct regular orchard inspections for early detection.",
             "5. Maintain detailed records of disease outbreaks and treatments.",
@@ -1524,26 +1524,26 @@ const crops = [
             "10. Implement proper pruning techniques."
           ],
           "pesticides": [
-            "For effective management of Mango Anthracnose, consult with local agricultural experts for suitable copper-based fungicides. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
+            "For effective management of Mango Anthracnose, consult with local agricultural experts for suitable copper based fungicides. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
           ]
         },
         {
-          "name": "Mango-Powdery-Mildew",
+          "name": "Mango Powdery Mildew",
           "symptoms": "Mango Powdery Mildew appears as white, powdery patches on mango leaves, shoots, and fruit, affecting photosynthesis and fruit quality. It thrives in dry conditions.",
           "prevention": [
-            "1. Apply fungicides preventively during disease-prone periods.",
+            "1. Apply fungicides preventively during disease prone periods.",
             "2. Prune to improve air circulation and reduce humidity in the orchard.",
             "3. Maintain proper tree spacing for ventilation.",
             "4. Educate orchard workers on disease recognition and prevention.",
             "5. Collaborate with local agricultural experts for guidance.",
             "6. Adjust irrigation practices to minimize leaf wetness.",
             "7. Monitor humidity levels in the orchard.",
-            "8. Use disease-resistant mango varieties if available.",
+            "8. Use disease resistant mango varieties if available.",
             "9. Implement strict sanitation protocols during orchard operations.",
             "10. Consider organic fungicide options."
           ],
           "management": [
-            "1. Apply fungicides preventively during disease-prone periods.",
+            "1. Apply fungicides preventively during disease prone periods.",
             "2. Adjust irrigation practices to minimize leaf wetness.",
             "3. Promote natural predators of powdery mildew pathogens.",
             "4. Conduct regular orchard inspections for early detection.",
@@ -1559,12 +1559,12 @@ const crops = [
           ]
         },
         {
-          "name": "Mango-Black-Sooty-Mold",
-          "symptoms": "Mango Black Sooty Mold presents as a dark, sooty layer on mango leaves, fruit, and stems, often associated with honeydew excreted by sap-sucking insects. It affects fruit quality and photosynthesis.",
+          "name": "Mango Black Sooty Mold",
+          "symptoms": "Mango Black Sooty Mold presents as a dark, sooty layer on mango leaves, fruit, and stems, often associated with honeydew excreted by sap sucking insects. It affects fruit quality and photosynthesis.",
           "prevention": [
-            "1. Control sap-sucking insects like aphids and mealybugs.",
+            "1. Control sap sucking insects like aphids and mealybugs.",
             "2. Apply insecticides or neem oil to manage insect populations.",
-            "3. Promote natural predators of sap-sucking insects.",
+            "3. Promote natural predators of sap sucking insects.",
             "4. Prune to improve air circulation in the orchard.",
             "5. Maintain proper tree spacing for ventilation.",
             "6. Educate orchard workers on disease recognition and prevention.",
@@ -1574,15 +1574,15 @@ const crops = [
             "10. Monitor and manage humidity levels in the orchard."
           ],
           "management": [
-            "1. Control sap-sucking insects through timely insecticide applications.",
+            "1. Control sap sucking insects through timely insecticide applications.",
             "2. Prune to remove heavily infested plant parts.",
-            "3. Promote natural predators of sap-sucking insects.",
+            "3. Promote natural predators of sap sucking insects.",
             "4. Conduct regular orchard inspections for early detection.",
             "5. Maintain detailed records of disease outbreaks and treatments.",
             "6. Isolate severely affected trees or areas for containment.",
             "7. Monitor tree health and fruit quality closely.",
             "8. Develop a Black Sooty Mold management plan.",
-            "9. Collaborate with neighboring orchards to manage sap-sucking insects.",
+            "9. Collaborate with neighboring orchards to manage sap sucking insects.",
             "10. Continue insect monitoring for timely interventions."
           ],
           "pesticides": [
@@ -1590,23 +1590,23 @@ const crops = [
           ]
         },
         {
-          "name": "Mango-Bacterial-Black-Spot",
+          "name": "Mango Bacterial Black Spot",
           "symptoms": "Mango Bacterial Black Spot appears as small, dark lesions with a yellow halo on mango fruit and leaves. It leads to fruit spotting and defoliation, affecting fruit quality and tree health.",
           "prevention": [
             "1. Prune to improve air circulation in the orchard.",
             "2. Remove and destroy infected fruit and plant material.",
-            "3. Apply copper-based fungicides preventively during flowering and fruit setting.",
+            "3. Apply copper based fungicides preventively during flowering and fruit setting.",
             "4. Maintain proper tree spacing for ventilation.",
             "5. Educate orchard workers on disease recognition and prevention.",
             "6. Collaborate with local agricultural experts for advice.",
             "7. Adjust irrigation practices to minimize leaf wetness.",
             "8. Monitor weather conditions conducive to bacterial black spot development.",
             "9. Implement strict sanitation protocols during orchard operations.",
-            "10. Use disease-resistant mango varieties if available."
+            "10. Use disease resistant mango varieties if available."
           ],
           "management": [
             "1. Remove and destroy infected mango fruit and plant material.",
-            "2. Apply copper-based fungicides as directed by experts.",
+            "2. Apply copper based fungicides as directed by experts.",
             "3. Promote natural predators of bacterial black spot pathogens.",
             "4. Conduct regular orchard inspections for early detection.",
             "5. Maintain detailed records of disease outbreaks and treatments.",
@@ -1617,15 +1617,15 @@ const crops = [
             "10. Implement proper pruning techniques."
           ],
           "pesticides": [
-            "For effective management of Mango Bacterial Black Spot, consult with local agricultural experts for suitable copper-based fungicides. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
+            "For effective management of Mango Bacterial Black Spot, consult with local agricultural experts for suitable copper based fungicides. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
           ]
         },
         {
-          "name": "Mango-Pink-Disease",
+          "name": "Mango Pink Disease",
           "symptoms": "Mango Pink Disease is identified by pink, gelatinous growth on mango branches, often causing dieback. It leads to reduced tree health and fruit production.",
           "prevention": [
             "1. Prune to remove infected branches and promote air circulation.",
-            "2. Apply copper-based fungicides or Bordeaux mixture preventively.",
+            "2. Apply copper based fungicides or Bordeaux mixture preventively.",
             "3. Remove and destroy infected plant material.",
             "4. Maintain proper tree spacing for ventilation.",
             "5. Educate orchard workers on disease recognition and prevention.",
@@ -1633,11 +1633,11 @@ const crops = [
             "7. Adjust irrigation practices to minimize moisture on branches.",
             "8. Monitor weather conditions conducive to Pink Disease development.",
             "9. Implement strict sanitation protocols during orchard operations.",
-            "10. Use disease-resistant mango varieties if available."
+            "10. Use disease resistant mango varieties if available."
           ],
           "management": [
             "1. Prune and remove infected mango branches promptly, sterilizing tools between cuts.",
-            "2. Apply copper-based fungicides or Bordeaux mixture as advised by experts.",
+            "2. Apply copper based fungicides or Bordeaux mixture as advised by experts.",
             "3. Promote natural predators of Pink Disease pathogens.",
             "4. Conduct regular orchard inspections for early detection.",
             "5. Maintain detailed records of disease outbreaks and treatments.",
@@ -1648,28 +1648,28 @@ const crops = [
             "10. Implement proper pruning techniques."
           ],
           "pesticides": [
-            "For managing Mango Pink Disease, consult with local agricultural experts for suitable copper-based fungicides or Bordeaux mixture. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
+            "For managing Mango Pink Disease, consult with local agricultural experts for suitable copper based fungicides or Bordeaux mixture. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
           ]
         }
       ]
     },
     {
-      "type": "fruit-tree",
+      "type": "fruit tree",
       "name": "banana",
       "diseases": [
         {
-          "name": "Banana-Panama-Disease",
+          "name": "Banana Panama Disease",
           "symptoms": "Banana Panama Disease, caused by the Fusarium wilt fungus, exhibits as yellowing and wilting of lower leaves, progressing to complete wilting and death of the banana plant. It leads to severe yield loss.",
           "prevention": [
-            "1. Plant disease-resistant banana varieties.",
-            "2. Use disease-free planting material.",
+            "1. Plant disease resistant banana varieties.",
+            "2. Use disease free planting material.",
             "3. Implement strict sanitation protocols to prevent soil contamination.",
             "4. Avoid planting in infested soils.",
             "5. Quarantine and destroy infected plants to prevent spread.",
             "6. Monitor soil health and fertility.",
             "7. Collaborate with local agricultural experts for guidance.",
             "8. Adjust irrigation practices to minimize soil moisture.",
-            "9. Implement crop rotation with non-host plants.",
+            "9. Implement crop rotation with non host plants.",
             "10. Use biocontrol agents where applicable."
           ],
           "management": [
@@ -1689,10 +1689,10 @@ const crops = [
           ]
         },
         {
-          "name": "Banana-Black-Sigatoka",
+          "name": "Banana Black Sigatoka",
           "symptoms": "Banana Black Sigatoka appears as dark, irregular spots with yellow halos on banana leaves, leading to leaf necrosis and reduced photosynthesis. Severe infections affect fruit development.",
           "prevention": [
-            "1. Apply fungicides preventively during disease-prone periods.",
+            "1. Apply fungicides preventively during disease prone periods.",
             "2. Implement a regular leaf pruning regime.",
             "3. Maintain proper spacing between banana plants.",
             "4. Monitor and control humidity levels in the plantation.",
@@ -1701,7 +1701,7 @@ const crops = [
             "7. Adjust irrigation practices to reduce leaf wetness.",
             "8. Quarantine and destroy infected leaves.",
             "9. Implement strict sanitation protocols during plantation operations.",
-            "10. Use disease-resistant banana varieties where available."
+            "10. Use disease resistant banana varieties where available."
           ],
           "management": [
             "1. Prune and remove heavily infected banana leaves.",
@@ -1720,10 +1720,10 @@ const crops = [
           ]
         },
         {
-          "name": "Banana-Leaf-Spot",
+          "name": "Banana Leaf Spot",
           "symptoms": "Banana Leaf Spot presents as small, dark lesions on banana leaves, often with yellow halos. It affects photosynthesis and can lead to leaf defoliation, reducing yield.",
           "prevention": [
-            "1. Apply fungicides preventively during disease-prone periods.",
+            "1. Apply fungicides preventively during disease prone periods.",
             "2. Maintain proper spacing between banana plants for air circulation.",
             "3. Monitor and control humidity levels in the plantation.",
             "4. Collaborate with local agricultural experts for guidance.",
@@ -1731,7 +1731,7 @@ const crops = [
             "6. Adjust irrigation practices to reduce leaf wetness.",
             "7. Quarantine and destroy infected leaves.",
             "8. Implement strict sanitation protocols during plantation operations.",
-            "9. Use disease-resistant banana varieties where available.",
+            "9. Use disease resistant banana varieties where available.",
             "10. Practice regular leaf pruning."
           ],
           "management": [
@@ -1747,22 +1747,22 @@ const crops = [
             "10. Consider organic fungicide options."
           ],
           "pesticides": [
-            "For effective management of Banana Leaf Spot, consult with local agricultural experts for suitable fungicides like Mancozeb or Copper-based products. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
+            "For effective management of Banana Leaf Spot, consult with local agricultural experts for suitable fungicides like Mancozeb or Copper based products. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
           ]
         },
         {
-          "name": "Banana-Root-Rot",
+          "name": "Banana Root Rot",
           "symptoms": "Banana Root Rot is characterized by wilting, yellowing, and rotting of banana plants, starting at the roots and progressing upwards. It leads to plant death and yield loss.",
           "prevention": [
-            "1. Plant disease-resistant banana varieties.",
-            "2. Use disease-free planting material.",
+            "1. Plant disease resistant banana varieties.",
+            "2. Use disease free planting material.",
             "3. Implement strict sanitation protocols to prevent soil contamination.",
             "4. Avoid planting in infested soils.",
             "5. Quarantine and destroy infected plants to prevent spread.",
             "6. Monitor soil health and fertility.",
             "7. Collaborate with local agricultural experts for guidance.",
             "8. Adjust irrigation practices to minimize soil moisture.",
-            "9. Implement crop rotation with non-host plants.",
+            "9. Implement crop rotation with non host plants.",
             "10. Use biocontrol agents where applicable."
           ],
           "management": [
@@ -1782,10 +1782,10 @@ const crops = [
           ]
         },
         {
-          "name": "Banana-Sigatoka-Leaf-Spot",
+          "name": "Banana Sigatoka Leaf Spot",
           "symptoms": "Banana Sigatoka Leaf Spot appears as yellow spots on banana leaves, which later develop into brown lesions with a yellow halo. It affects photosynthesis and can lead to reduced yield.",
           "prevention": [
-            "1. Apply fungicides preventively during disease-prone periods.",
+            "1. Apply fungicides preventively during disease prone periods.",
             "2. Maintain proper spacing between banana plants for air circulation.",
             "3. Monitor and control humidity levels in the plantation.",
             "4. Collaborate with local agricultural experts for guidance.",
@@ -1793,7 +1793,7 @@ const crops = [
             "6. Adjust irrigation practices to reduce leaf wetness.",
             "7. Quarantine and destroy infected leaves.",
             "8. Implement strict sanitation protocols during plantation operations.",
-            "9. Use disease-resistant banana varieties where available.",
+            "9. Use disease resistant banana varieties where available.",
             "10. Practice regular leaf pruning."
           ],
           "management": [
@@ -1809,20 +1809,20 @@ const crops = [
             "10. Consider organic fungicide options."
           ],
           "pesticides": [
-            "For effective management of Banana Sigatoka Leaf Spot, consult with local agricultural experts for suitable fungicides like Mancozeb or Copper-based products. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
+            "For effective management of Banana Sigatoka Leaf Spot, consult with local agricultural experts for suitable fungicides like Mancozeb or Copper based products. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
           ]
         }
       ]
     },
     {
-      "type": "fruit-tree",
+      "type": "fruit tree",
       "name": "cherry",
       "diseases": [
         {
-          "name": "Cherry-Leaf-Spot",
+          "name": "Cherry Leaf Spot",
           "symptoms": "Cherry Leaf Spot is characterized by small, circular, dark lesions on cherry leaves, often with yellow halos. It can lead to premature leaf drop and reduced fruit quality.",
           "prevention": [
-            "1. Apply fungicides preventively during disease-prone periods.",
+            "1. Apply fungicides preventively during disease prone periods.",
             "2. Maintain proper spacing between cherry trees for air circulation.",
             "3. Monitor and control humidity levels in the orchard.",
             "4. Collaborate with local agricultural experts for guidance.",
@@ -1830,7 +1830,7 @@ const crops = [
             "6. Adjust irrigation practices to reduce leaf wetness.",
             "7. Quarantine and destroy infected leaves.",
             "8. Implement strict sanitation protocols during orchard operations.",
-            "9. Use disease-resistant cherry varieties where available.",
+            "9. Use disease resistant cherry varieties where available.",
             "10. Practice regular leaf pruning."
           ],
           "management": [
@@ -1846,21 +1846,21 @@ const crops = [
             "10. Consider organic fungicide options."
           ],
           "pesticides": [
-            "For effective management of Cherry Leaf Spot, consult with local agricultural experts for suitable fungicides like Mancozeb or Copper-based products. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
+            "For effective management of Cherry Leaf Spot, consult with local agricultural experts for suitable fungicides like Mancozeb or Copper based products. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
           ]
         },
         {
-          "name": "Cherry-Brown-Rot",
+          "name": "Cherry Brown Rot",
           "symptoms": "Cherry Brown Rot presents as brown, fuzzy mold on cherry fruit, often causing fruit rot and loss. It thrives in humid conditions.",
           "prevention": [
-            "1. Apply fungicides preventively during disease-prone periods.",
+            "1. Apply fungicides preventively during disease prone periods.",
             "2. Prune to improve air circulation in the orchard.",
             "3. Remove and destroy infected fruit and plant material.",
             "4. Maintain proper spacing between cherry trees for ventilation.",
             "5. Collaborate with local agricultural experts for guidance.",
             "6. Adjust irrigation practices to minimize fruit wetness.",
             "7. Monitor weather conditions conducive to Brown Rot development.",
-            "8. Use disease-resistant cherry varieties if available.",
+            "8. Use disease resistant cherry varieties if available.",
             "9. Implement strict sanitation protocols during orchard operations.",
             "10. Consider organic fungicide options."
           ],
@@ -1877,14 +1877,14 @@ const crops = [
             "10. Implement proper pruning techniques."
           ],
           "pesticides": [
-            "For effective management of Cherry Brown Rot, consult with local agricultural experts for suitable fungicides like Thiophanate-methyl or Captan. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
+            "For effective management of Cherry Brown Rot, consult with local agricultural experts for suitable fungicides like Thiophanate methyl or Captan. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
           ]
         },
         {
-          "name": "Cherry-Shothole",
+          "name": "Cherry Shothole",
           "symptoms": "Cherry Shothole appears as small, round holes in cherry leaves, often leading to leaf drop and reduced fruit quality. It thrives in wet conditions.",
           "prevention": [
-            "1. Apply fungicides preventively during disease-prone periods.",
+            "1. Apply fungicides preventively during disease prone periods.",
             "2. Maintain proper spacing between cherry trees for air circulation.",
             "3. Monitor and control humidity levels in the orchard.",
             "4. Collaborate with local agricultural experts for guidance.",
@@ -1892,7 +1892,7 @@ const crops = [
             "6. Adjust irrigation practices to reduce leaf wetness.",
             "7. Quarantine and destroy infected leaves.",
             "8. Implement strict sanitation protocols during orchard operations.",
-            "9. Use disease-resistant cherry varieties where available.",
+            "9. Use disease resistant cherry varieties where available.",
             "10. Practice regular leaf pruning."
           ],
           "management": [
@@ -1908,11 +1908,11 @@ const crops = [
             "10. Consider organic fungicide options."
           ],
           "pesticides": [
-            "For effective management of Cherry Shothole, consult with local agricultural experts for suitable fungicides like Copper-based products or Chlorothalonil. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
+            "For effective management of Cherry Shothole, consult with local agricultural experts for suitable fungicides like Copper based products or Chlorothalonil. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
           ]
         },
         {
-          "name": "Cherry-Black-Knot",
+          "name": "Cherry Black Knot",
           "symptoms": "Cherry Black Knot is identified by hard, black, elongated swellings or knots on cherry branches and stems, leading to dieback and reduced fruiting.",
           "prevention": [
             "1. Prune and remove infected branches promptly.",
@@ -1943,7 +1943,7 @@ const crops = [
           ]
         },
         {
-          "name": "Cherry-Bacterial-Canker",
+          "name": "Cherry Bacterial Canker",
           "symptoms": "Cherry Bacterial Canker results in small, sunken lesions on cherry fruit, as well as cankers on branches and stems. It can lead to fruit rot and dieback of branches.",
           "prevention": [
             "1. Prune and remove infected branches and cankers promptly.",
@@ -1955,7 +1955,7 @@ const crops = [
             "7. Adjust irrigation practices to minimize branch wetness.",
             "8. Quarantine and destroy infected fruit and branches.",
             "9. Implement strict sanitation protocols during orchard operations.",
-            "10. Consider copper-based bactericides."
+            "10. Consider copper based bactericides."
           ],
           "management": [
             "1. Prune and remove infected cherry branches and cankers promptly, sterilizing tools between cuts.",
@@ -1967,20 +1967,20 @@ const crops = [
             "7. Monitor fruit quality closely.",
             "8. Develop a Bacterial Canker management plan.",
             "9. Collaborate with neighboring orchards to manage disease collectively.",
-            "10. Consult with experts for copper-based bactericide application."
+            "10. Consult with experts for copper based bactericide application."
           ],
           "pesticides": [
-            "For effective management of Cherry Bacterial Canker, consult with local agricultural experts for suitable copper-based bactericides. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
+            "For effective management of Cherry Bacterial Canker, consult with local agricultural experts for suitable copper based bactericides. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
           ]
         }
       ]
     },
     {
-      "type": "fruit-tree",
+      "type": "fruit tree",
       "name": "orange",
       "diseases": [
         {
-          "name": "Orange-Citrus-Canker",
+          "name": "Orange Citrus Canker",
           "symptoms": "Orange Citrus Canker manifests as raised, corky lesions on orange fruit, leaves, and stems. It leads to fruit blemishes, defoliation, and reduced yield.",
           "prevention": [
             "1. Prune and remove infected branches and cankers promptly.",
@@ -1992,7 +1992,7 @@ const crops = [
             "7. Adjust irrigation practices to minimize branch wetness.",
             "8. Quarantine and destroy infected fruit and branches.",
             "9. Implement strict sanitation protocols during orchard operations.",
-            "10. Consider copper-based bactericides."
+            "10. Consider copper based bactericides."
           ],
           "management": [
             "1. Prune and remove infected orange branches and cankers promptly, sterilizing tools between cuts.",
@@ -2004,17 +2004,17 @@ const crops = [
             "7. Monitor fruit quality closely.",
             "8. Develop a Citrus Canker management plan.",
             "9. Collaborate with neighboring orchards to manage disease collectively.",
-            "10. Consult with experts for copper-based bactericide application."
+            "10. Consult with experts for copper based bactericide application."
           ],
           "pesticides": [
-            "For effective management of Orange Citrus Canker, consult with local agricultural experts for suitable copper-based bactericides. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
+            "For effective management of Orange Citrus Canker, consult with local agricultural experts for suitable copper based bactericides. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
           ]
         },
         {
-          "name": "Orange-Citrus-Greening",
+          "name": "Orange Citrus Greening",
           "symptoms": "Orange Citrus Greening, also known as Huanglongbing (HLB), leads to mottled, discolored leaves, misshapen fruit, and tree decline. It causes significant yield loss.",
           "prevention": [
-            "1. Use disease-free citrus planting material from reputable sources.",
+            "1. Use disease free citrus planting material from reputable sources.",
             "2. Implement strict quarantine measures to prevent infected material from entering the orchard.",
             "3. Collaborate with local agricultural experts for guidance on early detection and control.",
             "4. Remove and destroy infected trees to prevent further spread.",
@@ -2023,7 +2023,7 @@ const crops = [
             "7. Adjust irrigation practices to avoid prolonged moisture on leaves and roots.",
             "8. Educate orchard workers on disease recognition and prevention.",
             "9. Apply systemic insecticides to control disease vectors.",
-            "10. Consider disease-resistant citrus varieties if available."
+            "10. Consider disease resistant citrus varieties if available."
           ],
           "management": [
             "1. Remove and destroy infected trees promptly.",
@@ -2042,10 +2042,10 @@ const crops = [
           ]
         },
         {
-          "name": "Orange-Alternaria-Fruit-Rot",
-          "symptoms": "Orange Alternaria Fruit Rot is identified by dark, sunken lesions on fruit, often with concentric rings. It leads to fruit decay and post-harvest losses.",
+          "name": "Orange Alternaria Fruit Rot",
+          "symptoms": "Orange Alternaria Fruit Rot is identified by dark, sunken lesions on fruit, often with concentric rings. It leads to fruit decay and post harvest losses.",
           "prevention": [
-            "1. Apply fungicides preventively during disease-prone periods.",
+            "1. Apply fungicides preventively during disease prone periods.",
             "2. Harvest oranges at the correct maturity stage to prevent injury.",
             "3. Maintain proper spacing between orange trees for ventilation.",
             "4. Monitor and control humidity levels in the orchard.",
@@ -2053,7 +2053,7 @@ const crops = [
             "6. Educate orchard workers on disease recognition and prevention.",
             "7. Implement strict sanitation protocols during orchard operations.",
             "8. Adjust irrigation practices to minimize fruit wetness.",
-            "9. Use disease-resistant orange varieties where available.",
+            "9. Use disease resistant orange varieties where available.",
             "10. Properly handle and store harvested fruit."
           ],
           "management": [
@@ -2073,18 +2073,18 @@ const crops = [
           ]
         },
         {
-          "name": "Orange-Phytophthora-Rot",
-          "symptoms": "Orange Phytophthora Rot leads to water-soaked lesions on fruit, often with a moldy appearance. It causes fruit decay, reduced yield, and tree decline.",
+          "name": "Orange Phytophthora Rot",
+          "symptoms": "Orange Phytophthora Rot leads to water soaked lesions on fruit, often with a moldy appearance. It causes fruit decay, reduced yield, and tree decline.",
           "prevention": [
             "1. Improve orchard drainage to prevent waterlogged conditions.",
-            "2. Apply fungicides preventively during disease-prone periods.",
+            "2. Apply fungicides preventively during disease prone periods.",
             "3. Maintain proper spacing between orange trees for air circulation.",
             "4. Collaborate with local agricultural experts for guidance.",
             "5. Educate orchard workers on disease recognition and prevention.",
             "6. Adjust irrigation practices to avoid prolonged root wetness.",
             "7. Quarantine and destroy infected fruit.",
             "8. Implement strict sanitation protocols during orchard operations.",
-            "9. Use disease-resistant orange varieties where available.",
+            "9. Use disease resistant orange varieties where available.",
             "10. Practice proper pruning and tree care."
           ],
           "management": [
@@ -2100,14 +2100,14 @@ const crops = [
             "10. Consider organic fungicide options."
           ],
           "pesticides": [
-            "For effective management of Orange Phytophthora Rot, consult with local agricultural experts for suitable fungicides like Metalaxyl or Phosphorous acid-based products. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
+            "For effective management of Orange Phytophthora Rot, consult with local agricultural experts for suitable fungicides like Metalaxyl or Phosphorous acid based products. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
           ]
         },
         {
-          "name": "Orange-Citrus-Scab",
+          "name": "Orange Citrus Scab",
           "symptoms": "Orange Citrus Scab presents as raised, scaly lesions on fruit, leaves, and stems. It leads to fruit blemishes and reduced marketability.",
           "prevention": [
-            "1. Apply fungicides preventively during disease-prone periods.",
+            "1. Apply fungicides preventively during disease prone periods.",
             "2. Maintain proper spacing between orange trees for air circulation.",
             "3. Monitor and control humidity levels in the orchard.",
             "4. Collaborate with local agricultural experts for guidance.",
@@ -2115,7 +2115,7 @@ const crops = [
             "6. Adjust irrigation practices to reduce leaf and fruit wetness.",
             "7. Quarantine and destroy infected fruit and leaves.",
             "8. Implement strict sanitation protocols during orchard operations.",
-            "9. Use disease-resistant orange varieties where available.",
+            "9. Use disease resistant orange varieties where available.",
             "10. Properly dispose of infected plant material."
           ],
           "management": [
@@ -2131,20 +2131,20 @@ const crops = [
             "10. Consider organic fungicide options."
           ],
           "pesticides": [
-            "For effective management of Orange Citrus Scab, consult with local agricultural experts for suitable fungicides like Mancozeb or Sulfur-based products. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
+            "For effective management of Orange Citrus Scab, consult with local agricultural experts for suitable fungicides like Mancozeb or Sulfur based products. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
           ]
         }
       ]
     },
     {
-      "type": "fruit-tree",
+      "type": "fruit tree",
       "name": "grapes",
       "diseases": [
         {
-          "name": "Grape-Powdery-Mildew",
+          "name": "Grape Powdery Mildew",
           "symptoms": "Grape Powdery Mildew appears as white, powdery spots on leaves, stems, and fruit. It leads to reduced photosynthesis, fruit quality, and yield.",
           "prevention": [
-            "1. Apply fungicides preventively during disease-prone periods.",
+            "1. Apply fungicides preventively during disease prone periods.",
             "2. Prune vines for improved air circulation.",
             "3. Maintain proper vine spacing to reduce humidity buildup.",
             "4. Monitor and control humidity levels in the vineyard.",
@@ -2152,7 +2152,7 @@ const crops = [
             "6. Adjust irrigation practices to avoid leaf wetness.",
             "7. Remove and destroy infected plant material.",
             "8. Implement strict sanitation protocols during vineyard operations.",
-            "9. Use disease-resistant grape varieties where available.",
+            "9. Use disease resistant grape varieties where available.",
             "10. Practice regular leaf removal in the fruit zone."
           ],
           "management": [
@@ -2172,10 +2172,10 @@ const crops = [
           ]
         },
         {
-          "name": "Grape-Downy-Mildew",
+          "name": "Grape Downy Mildew",
           "symptoms": "Grape Downy Mildew leads to yellow spots on leaves, which turn brown. It can cause defoliation and fruit rot, reducing yield and quality.",
           "prevention": [
-            "1. Apply fungicides preventively during disease-prone periods.",
+            "1. Apply fungicides preventively during disease prone periods.",
             "2. Prune vines for improved air circulation.",
             "3. Maintain proper vine spacing to reduce humidity buildup.",
             "4. Monitor and control humidity levels in the vineyard.",
@@ -2183,7 +2183,7 @@ const crops = [
             "6. Adjust irrigation practices to minimize leaf wetness.",
             "7. Remove and destroy infected plant material.",
             "8. Implement strict sanitation protocols during vineyard operations.",
-            "9. Use disease-resistant grape varieties where available.",
+            "9. Use disease resistant grape varieties where available.",
             "10. Practice canopy management to improve sunlight penetration."
           ],
           "management": [
@@ -2203,10 +2203,10 @@ const crops = [
           ]
         },
         {
-          "name": "Grape-Black-Rot",
+          "name": "Grape Black Rot",
           "symptoms": "Grape Black Rot causes brown lesions on leaves, fruit, and stems. Infected fruit shrivels and becomes mummified. It results in significant fruit loss.",
           "prevention": [
-            "1. Apply fungicides preventively during disease-prone periods.",
+            "1. Apply fungicides preventively during disease prone periods.",
             "2. Prune vines for improved air circulation and reduced canopy density.",
             "3. Maintain proper vine spacing to allow for better airflow.",
             "4. Monitor and control humidity levels in the vineyard.",
@@ -2214,7 +2214,7 @@ const crops = [
             "6. Adjust irrigation practices to minimize leaf wetness.",
             "7. Remove and destroy infected plant material, including mummies.",
             "8. Implement strict sanitation protocols during vineyard operations.",
-            "9. Use disease-resistant grape varieties where available.",
+            "9. Use disease resistant grape varieties where available.",
             "10. Practice cluster thinning for better fruit exposure."
           ],
           "management": [
@@ -2234,10 +2234,10 @@ const crops = [
           ]
         },
         {
-          "name": "Grape-Anthracnose",
+          "name": "Grape Anthracnose",
           "symptoms": "Grape Anthracnose causes circular, sunken lesions on fruit and leaves. It can lead to fruit rot and defoliation, reducing grape quality and yield.",
           "prevention": [
-            "1. Apply fungicides preventively during disease-prone periods.",
+            "1. Apply fungicides preventively during disease prone periods.",
             "2. Prune vines for improved air circulation and light penetration.",
             "3. Maintain proper vine spacing for ventilation.",
             "4. Monitor and control humidity levels in the vineyard.",
@@ -2245,7 +2245,7 @@ const crops = [
             "6. Adjust irrigation practices to minimize leaf wetness.",
             "7. Remove and destroy infected plant material.",
             "8. Implement strict sanitation protocols during vineyard operations.",
-            "9. Use disease-resistant grape varieties where available.",
+            "9. Use disease resistant grape varieties where available.",
             "10. Practice regular canopy management."
           ],
           "management": [
@@ -2261,18 +2261,18 @@ const crops = [
             "10. Consider organic fungicide options."
           ],
           "pesticides": [
-            "For effective management of Grape Anthracnose, consult with local agricultural experts for suitable fungicides like Mancozeb or Copper-based products. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
+            "For effective management of Grape Anthracnose, consult with local agricultural experts for suitable fungicides like Mancozeb or Copper based products. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
           ]
         },
         {
-          "name": "Grape-Leafroll-Virus",
+          "name": "Grape Leafroll Virus",
           "symptoms": "Grape Leafroll Virus causes discoloration and rolling of grape leaves. It leads to delayed ripening, reduced sugar content, and lower fruit quality.",
           "prevention": [
-            "1. Plant certified virus-free grapevines from reputable nurseries.",
+            "1. Plant certified virus free grapevines from reputable nurseries.",
             "2. Implement strict sanitation practices to prevent virus spread.",
             "3. Collaborate with local agricultural experts for virus detection.",
             "4. Remove and destroy infected vines to prevent further spread.",
-            "5. Use virus-tested planting material.",
+            "5. Use virus tested planting material.",
             "6. Monitor vineyard health regularly for virus symptoms.",
             "7. Consider the use of insecticides to control virus vectors.",
             "8. Educate vineyard workers on virus recognition and prevention.",
@@ -2285,7 +2285,7 @@ const crops = [
             "3. Monitor vineyard health and virus prevalence.",
             "4. Isolate and mark infected vines for removal.",
             "5. Implement rigorous sanitation measures.",
-            "6. Replace infected vines with virus-free planting material.",
+            "6. Replace infected vines with virus free planting material.",
             "7. Educate vineyard workers on virus prevention.",
             "8. Maintain detailed records of virus detection and actions taken.",
             "9. Consider insecticide applications for vector control.",
@@ -2298,15 +2298,15 @@ const crops = [
       ]
     },
     {
-      "type": "fruit-tree",
+      "type": "fruit tree",
       "name": "watermelon",
       "diseases": [
         {
-          "name": "Watermelon-Anthracnose",
+          "name": "Watermelon Anthracnose",
           "symptoms": "Watermelon Anthracnose displays as dark, sunken lesions on fruit, often with pinkish spore masses. It can cause fruit rot and yield loss.",
           "prevention": [
-            "1. Apply fungicides preventively during disease-prone periods.",
-            "2. Plant disease-resistant watermelon varieties when available.",
+            "1. Apply fungicides preventively during disease prone periods.",
+            "2. Plant disease resistant watermelon varieties when available.",
             "3. Practice proper spacing between plants for air circulation.",
             "4. Monitor and control humidity levels in the field.",
             "5. Rotate crops to reduce pathogen buildup.",
@@ -2333,11 +2333,11 @@ const crops = [
           ]
         },
         {
-          "name": "Watermelon-Powdery-Mildew",
+          "name": "Watermelon Powdery Mildew",
           "symptoms": "Watermelon Powdery Mildew appears as white, powdery spots on leaves, stems, and fruit. It leads to reduced photosynthesis, fruit quality, and yield.",
           "prevention": [
-            "1. Apply fungicides preventively during disease-prone periods.",
-            "2. Plant disease-resistant watermelon varieties when available.",
+            "1. Apply fungicides preventively during disease prone periods.",
+            "2. Plant disease resistant watermelon varieties when available.",
             "3. Maintain proper spacing between plants for air circulation.",
             "4. Monitor and control humidity levels in the field.",
             "5. Rotate crops to reduce pathogen buildup.",
@@ -2345,7 +2345,7 @@ const crops = [
             "7. Implement strict sanitation protocols during cultivation.",
             "8. Use resistant rootstocks where possible.",
             "9. Adjust irrigation practices to avoid leaf wetness.",
-            "10. Practice crop rotation with non-host crops."
+            "10. Practice crop rotation with non host crops."
           ],
           "management": [
             "1. Remove and destroy infected watermelon leaves and plant material.",
@@ -2364,11 +2364,11 @@ const crops = [
           ]
         },
         {
-          "name": "Watermelon-Downy-Mildew",
+          "name": "Watermelon Downy Mildew",
           "symptoms": "Watermelon Downy Mildew leads to yellow spots on leaves, which turn brown. It can cause defoliation, fruit rot, and reduced yield.",
           "prevention": [
-            "1. Apply fungicides preventively during disease-prone periods.",
-            "2. Plant disease-resistant watermelon varieties when available.",
+            "1. Apply fungicides preventively during disease prone periods.",
+            "2. Plant disease resistant watermelon varieties when available.",
             "3. Maintain proper spacing between plants for air circulation.",
             "4. Monitor and control humidity levels in the field.",
             "5. Rotate crops to reduce pathogen buildup.",
@@ -2376,7 +2376,7 @@ const crops = [
             "7. Implement strict sanitation protocols during cultivation.",
             "8. Adjust irrigation practices to minimize leaf wetness.",
             "9. Use resistant rootstocks where possible.",
-            "10. Practice crop rotation with non-host crops."
+            "10. Practice crop rotation with non host crops."
           ],
           "management": [
             "1. Remove and destroy infected watermelon leaves and plant material.",
@@ -2395,14 +2395,14 @@ const crops = [
           ]
         },
         {
-          "name": "Watermelon-Blossom-End-Rot",
+          "name": "Watermelon Blossom End Rot",
           "symptoms": "Watermelon Blossom End Rot leads to dark, sunken lesions at the blossom end of the fruit. It's caused by calcium deficiency and fluctuations in soil moisture.",
           "prevention": [
             "1. Ensure proper soil calcium levels through soil testing and amendments.",
             "2. Maintain consistent soil moisture through proper irrigation practices.",
             "3. Avoid excessive nitrogen fertilization, which can affect calcium uptake.",
             "4. Use mulch to regulate soil temperature and moisture.",
-            "5. Apply a calcium-containing foliar spray during fruit development.",
+            "5. Apply a calcium containing foliar spray during fruit development.",
             "6. Monitor for signs of calcium deficiency and address promptly.",
             "7. Choose watermelon varieties with lower susceptibility to Blossom End Rot.",
             "8. Practice crop rotation to manage soil nutrient balance.",
@@ -2419,17 +2419,17 @@ const crops = [
             "7. Maintain detailed records of soil tests and nutrient management.",
             "8. Collaborate with agricultural experts for guidance on nutrient management.",
             "9. Practice regular fruit monitoring for early detection of Blossom End Rot.",
-            "10. Consider calcium-containing fertilizers or foliar sprays as needed."
+            "10. Consider calcium containing fertilizers or foliar sprays as needed."
           ],
           "pesticides": [
             "There are no specific pesticides for Watermelon Blossom End Rot since it's primarily a calcium deficiency disorder. Focus on soil testing, calcium management, and proper irrigation. Consult with local agricultural experts for guidance."
           ]
         },
         {
-          "name": "Watermelon-Mosaic-Virus",
+          "name": "Watermelon Mosaic Virus",
           "symptoms": "Watermelon Mosaic Virus causes mosaic patterns on leaves, stunted growth, and yellowing. Infected fruit may have rough, distorted surfaces.",
           "prevention": [
-            "1. Plant virus-free watermelon seeds from reputable sources.",
+            "1. Plant virus free watermelon seeds from reputable sources.",
             "2. Use insecticides to control aphid vectors.",
             "3. Monitor for aphid activity and implement control measures.",
             "4. Remove and destroy infected plants to prevent virus spread.",
@@ -2446,7 +2446,7 @@ const crops = [
             "3. Monitor field health and virus prevalence.",
             "4. Isolate infected plants for containment.",
             "5. Implement rigorous sanitation measures.",
-            "6. Replace infected plants with virus-free planting material.",
+            "6. Replace infected plants with virus free planting material.",
             "7. Educate growers on virus prevention.",
             "8. Maintain detailed records of virus detection and actions taken.",
             "9. Consider insecticide applications for vector control.",
@@ -2459,14 +2459,14 @@ const crops = [
       ]
     },
     {
-      "type": "fruit-tree",
+      "type": "fruit tree",
       "name": "papaya",
       "diseases": [
         {
-          "name": "Papaya-Ring-Spot-Virus",
+          "name": "Papaya Ring Spot Virus",
           "symptoms": "Papaya Ring Spot Virus causes yellowing and mosaic patterns on leaves. Infected fruit may have raised rings or spots. It leads to reduced fruit quality and yield.",
           "prevention": [
-            "1. Plant virus-tested papaya seeds from reputable sources.",
+            "1. Plant virus tested papaya seeds from reputable sources.",
             "2. Use insecticides to control aphid vectors.",
             "3. Monitor for aphid activity and implement control measures.",
             "4. Remove and destroy infected plants to prevent virus spread.",
@@ -2483,7 +2483,7 @@ const crops = [
             "3. Monitor orchard health and virus prevalence.",
             "4. Isolate infected plants for containment.",
             "5. Implement rigorous sanitation measures.",
-            "6. Replace infected plants with virus-free planting material.",
+            "6. Replace infected plants with virus free planting material.",
             "7. Educate growers on virus prevention.",
             "8. Maintain detailed records of virus detection and actions taken.",
             "9. Consider insecticide applications for vector control.",
@@ -2494,11 +2494,11 @@ const crops = [
           ]
         },
         {
-          "name": "Papaya-Black-Spot",
+          "name": "Papaya Black Spot",
           "symptoms": "Papaya Black Spot presents as dark, sunken lesions on fruit and leaves. Infected fruit can become unmarketable due to cosmetic damage.",
           "prevention": [
-            "1. Apply fungicides preventively during disease-prone periods.",
-            "2. Plant disease-resistant papaya varieties when available.",
+            "1. Apply fungicides preventively during disease prone periods.",
+            "2. Plant disease resistant papaya varieties when available.",
             "3. Maintain proper spacing between papaya trees for air circulation.",
             "4. Monitor and control humidity levels in the orchard.",
             "5. Rotate crops to reduce pathogen buildup.",
@@ -2525,10 +2525,10 @@ const crops = [
           ]
         },
         {
-          "name": "Papaya-Mosaic-Virus",
+          "name": "Papaya Mosaic Virus",
           "symptoms": "Papaya Mosaic Virus causes mosaic patterns on leaves, stunted growth, and yellowing. Infected fruit may have rough, distorted surfaces.",
           "prevention": [
-            "1. Plant virus-free papaya seeds from reputable sources.",
+            "1. Plant virus free papaya seeds from reputable sources.",
             "2. Use insecticides to control aphid vectors.",
             "3. Monitor for aphid activity and implement control measures.",
             "4. Remove and destroy infected plants to prevent virus spread.",
@@ -2545,7 +2545,7 @@ const crops = [
             "3. Monitor orchard health and virus prevalence.",
             "4. Isolate infected plants for containment.",
             "5. Implement rigorous sanitation measures.",
-            "6. Replace infected plants with virus-free planting material.",
+            "6. Replace infected plants with virus free planting material.",
             "7. Educate growers on virus prevention.",
             "8. Maintain detailed records of virus detection and actions taken.",
             "9. Consider insecticide applications for vector control.",
@@ -2556,11 +2556,11 @@ const crops = [
           ]
         },
         {
-          "name": "Papaya-Powdery-Mildew",
+          "name": "Papaya Powdery Mildew",
           "symptoms": "Papaya Powdery Mildew appears as white, powdery spots on leaves, stems, and fruit. It leads to reduced photosynthesis, fruit quality, and yield.",
           "prevention": [
-            "1. Apply fungicides preventively during disease-prone periods.",
-            "2. Plant disease-resistant papaya varieties when available.",
+            "1. Apply fungicides preventively during disease prone periods.",
+            "2. Plant disease resistant papaya varieties when available.",
             "3. Maintain proper spacing between papaya trees for air circulation.",
             "4. Monitor and control humidity levels in the orchard.",
             "5. Rotate crops to reduce pathogen buildup.",
@@ -2568,7 +2568,7 @@ const crops = [
             "7. Implement strict sanitation protocols in the orchard.",
             "8. Use resistant rootstocks where possible.",
             "9. Adjust irrigation practices to minimize leaf wetness.",
-            "10. Practice crop rotation with non-host crops."
+            "10. Practice crop rotation with non host crops."
           ],
           "management": [
             "1. Remove and destroy infected papaya leaves and plant material.",
@@ -2587,19 +2587,19 @@ const crops = [
           ]
         },
         {
-          "name": "Papaya-Phytophthora-Rot",
-          "symptoms": "Papaya Phytophthora Rot causes dark, water-soaked lesions on fruit and roots. It leads to fruit decay and wilting of plants.",
+          "name": "Papaya Phytophthora Rot",
+          "symptoms": "Papaya Phytophthora Rot causes dark, water soaked lesions on fruit and roots. It leads to fruit decay and wilting of plants.",
           "prevention": [
             "1. Implement proper drainage to prevent waterlogging in the orchard.",
-            "2. Avoid over-irrigation, which can create favorable conditions for rot.",
-            "3. Apply fungicides preventively during disease-prone periods.",
-            "4. Plant disease-resistant papaya varieties when available.",
+            "2. Avoid over irrigation, which can create favorable conditions for rot.",
+            "3. Apply fungicides preventively during disease prone periods.",
+            "4. Plant disease resistant papaya varieties when available.",
             "5. Remove and destroy infected plant material.",
             "6. Implement strict sanitation protocols in the orchard.",
-            "7. Use well-draining soil for papaya cultivation.",
+            "7. Use well draining soil for papaya cultivation.",
             "8. Maintain proper spacing between papaya trees for air circulation.",
             "9. Monitor soil moisture levels to prevent excessive wetness.",
-            "10. Practice crop rotation with non-host crops."
+            "10. Practice crop rotation with non host crops."
           ],
           "management": [
             "1. Remove and destroy infected papaya fruit and plant material.",
@@ -2620,15 +2620,15 @@ const crops = [
       ]
     },
     {
-      "type": "fruit-tree",
+      "type": "fruit tree",
       "name": "pomegranate",
       "diseases": [
         {
-          "name": "Pomegranate-Anthracnose",
+          "name": "Pomegranate Anthracnose",
           "symptoms": "Pomegranate Anthracnose manifests as dark, sunken lesions on fruit, often with pinkish spore masses. It can cause fruit rot and yield loss.",
           "prevention": [
-            "1. Apply fungicides preventively during disease-prone periods.",
-            "2. Plant disease-resistant pomegranate varieties when available.",
+            "1. Apply fungicides preventively during disease prone periods.",
+            "2. Plant disease resistant pomegranate varieties when available.",
             "3. Maintain proper spacing between trees for air circulation.",
             "4. Monitor and control humidity levels in the orchard.",
             "5. Rotate crops to reduce pathogen buildup.",
@@ -2655,11 +2655,11 @@ const crops = [
           ]
         },
         {
-          "name": "Pomegranate-Powdery-Mildew",
+          "name": "Pomegranate Powdery Mildew",
           "symptoms": "Pomegranate Powdery Mildew appears as white, powdery spots on leaves and fruit. It leads to reduced photosynthesis, fruit quality, and yield.",
           "prevention": [
-            "1. Apply fungicides preventively during disease-prone periods.",
-            "2. Plant disease-resistant pomegranate varieties when available.",
+            "1. Apply fungicides preventively during disease prone periods.",
+            "2. Plant disease resistant pomegranate varieties when available.",
             "3. Maintain proper spacing between trees for air circulation.",
             "4. Monitor and control humidity levels in the orchard.",
             "5. Rotate crops to reduce pathogen buildup.",
@@ -2667,7 +2667,7 @@ const crops = [
             "7. Implement strict sanitation protocols in the orchard.",
             "8. Use resistant rootstocks where possible.",
             "9. Adjust irrigation practices to avoid leaf wetness.",
-            "10. Practice crop rotation with non-host crops."
+            "10. Practice crop rotation with non host crops."
           ],
           "management": [
             "1. Remove and destroy infected pomegranate leaves and plant material.",
@@ -2686,41 +2686,41 @@ const crops = [
           ]
         },
         {
-          "name": "Pomegranate-Heart-Rot",
-          "symptoms": "Pomegranate Heart Rot causes fruit decay with a foul odor and dark, watery lesions inside the fruit. It can lead to significant post-harvest losses.",
+          "name": "Pomegranate Heart Rot",
+          "symptoms": "Pomegranate Heart Rot causes fruit decay with a foul odor and dark, watery lesions inside the fruit. It can lead to significant post harvest losses.",
           "prevention": [
             "1. Harvest fruit at the right maturity to prevent injuries.",
             "2. Avoid rough handling during harvesting and transportation.",
             "3. Implement proper sanitation in storage and processing facilities.",
             "4. Store harvested fruit under controlled temperature and humidity.",
-            "5. Use disease-free planting material.",
+            "5. Use disease free planting material.",
             "6. Monitor orchard health for early detection of Heart Rot.",
             "7. Implement strict sanitation practices in the orchard.",
             "8. Remove and destroy infected fruit promptly.",
             "9. Educate orchard workers on disease prevention.",
-            "10. Collaborate with experts for post-harvest disease management."
+            "10. Collaborate with experts for post harvest disease management."
           ],
           "management": [
             "1. Remove and destroy infected pomegranate fruit and plant material.",
-            "2. Maintain proper post-harvest storage conditions.",
+            "2. Maintain proper post harvest storage conditions.",
             "3. Implement sanitation measures in packing and storage areas.",
-            "4. Conduct regular inspections during post-harvest handling.",
+            "4. Conduct regular inspections during post harvest handling.",
             "5. Educate workers on proper handling practices.",
             "6. Monitor fruit quality closely.",
             "7. Develop a Heart Rot management plan.",
             "8. Maintain detailed records of disease outbreaks and treatments.",
-            "9. Collaborate with experts for post-harvest disease management.",
-            "10. Consider post-harvest fungicides as necessary."
+            "9. Collaborate with experts for post harvest disease management.",
+            "10. Consider post harvest fungicides as necessary."
           ],
           "pesticides": [
-            "For post-harvest management of Pomegranate Heart Rot, consult with local agricultural experts for suitable fungicides or treatments. Follow recommended guidelines for application and safety."
+            "For post harvest management of Pomegranate Heart Rot, consult with local agricultural experts for suitable fungicides or treatments. Follow recommended guidelines for application and safety."
           ]
         },
         {
-          "name": "Pomegranate-Bacterial-Blight",
-          "symptoms": "Pomegranate Bacterial Blight leads to wilting, canker-like lesions on branches, and fruit rot. It can cause severe tree decline.",
+          "name": "Pomegranate Bacterial Blight",
+          "symptoms": "Pomegranate Bacterial Blight leads to wilting, canker like lesions on branches, and fruit rot. It can cause severe tree decline.",
           "prevention": [
-            "1. Plant disease-free pomegranate nursery stock.",
+            "1. Plant disease free pomegranate nursery stock.",
             "2. Use sanitized pruning tools to prevent bacterial spread.",
             "3. Avoid overhead irrigation to minimize leaf and fruit wetness.",
             "4. Implement strict sanitation practices in the orchard.",
@@ -2741,18 +2741,18 @@ const crops = [
             "7. Monitor tree health closely.",
             "8. Develop a Bacterial Blight management plan.",
             "9. Collaborate with experts for disease management.",
-            "10. Consider copper-based bactericides as needed."
+            "10. Consider copper based bactericides as needed."
           ],
           "pesticides": [
-            "For effective management of Pomegranate Bacterial Blight, consult with local agricultural experts for suitable copper-based bactericides or treatments. Follow recommended guidelines for application and safety."
+            "For effective management of Pomegranate Bacterial Blight, consult with local agricultural experts for suitable copper based bactericides or treatments. Follow recommended guidelines for application and safety."
           ]
         },
         {
-          "name": "Pomegranate-Fruit-Cracking",
+          "name": "Pomegranate Fruit Cracking",
           "symptoms": "Pomegranate Fruit Cracking causes splits or cracks on the fruit surface, making it vulnerable to diseases and reducing marketability.",
           "prevention": [
             "1. Maintain consistent irrigation to avoid fluctuations in fruit moisture.",
-            "2. Apply calcium-containing sprays during fruit development.",
+            "2. Apply calcium containing sprays during fruit development.",
             "3. Avoid excessive nitrogen fertilization.",
             "4. Harvest fruit at the right maturity.",
             "5. Use mulch to regulate soil moisture.",
@@ -2765,14 +2765,14 @@ const crops = [
           "management": [
             "1. Handle harvested fruit carefully to prevent further damage.",
             "2. Sort and grade cracked fruit separately for processing.",
-            "3. Apply calcium-containing sprays to improve fruit quality.",
+            "3. Apply calcium containing sprays to improve fruit quality.",
             "4. Maintain records of cracked fruit incidence.",
             "5. Implement soil and moisture management practices.",
             "6. Monitor orchard conditions for recurring issues.",
             "7. Educate orchard workers on proper handling and harvesting practices.",
             "8. Develop a Fruit Cracking management plan.",
             "9. Collaborate with experts for fruit cracking management.",
-            "10. Consider post-harvest treatments for damaged fruit."
+            "10. Consider post harvest treatments for damaged fruit."
           ],
           "pesticides": [
             "There are no specific pesticides for Pomegranate Fruit Cracking. Focus on prevention measures such as calcium applications and moisture management. Consult with local agricultural experts for guidance."
@@ -2781,20 +2781,20 @@ const crops = [
       ]
     },
     {
-      "type": "vegetable-crop",
+      "type": "vegetable crop",
       "name": "potato",
       "diseases": [
         {
-          "name": "Potato-Late-Blight",
-          "symptoms": "Potato Late Blight causes dark, water-soaked lesions on leaves and stems, often with a white, fuzzy growth on the underside. It leads to rapid defoliation and can rot tubers.",
+          "name": "Potato Late Blight",
+          "symptoms": "Potato Late Blight causes dark, water soaked lesions on leaves and stems, often with a white, fuzzy growth on the underside. It leads to rapid defoliation and can rot tubers.",
           "prevention": [
-            "1. Plant blight-resistant potato varieties.",
+            "1. Plant blight resistant potato varieties.",
             "2. Space plants for better air circulation.",
             "3. Avoid overhead irrigation to minimize leaf wetness.",
-            "4. Apply fungicides preventively during disease-prone periods.",
+            "4. Apply fungicides preventively during disease prone periods.",
             "5. Remove and destroy infected plant material.",
             "6. Implement strict sanitation protocols in the field.",
-            "7. Monitor weather conditions for blight-friendly periods.",
+            "7. Monitor weather conditions for blight friendly periods.",
             "8. Educate potato growers on blight recognition.",
             "9. Adjust nitrogen fertilization to avoid excessive growth.",
             "10. Collaborate with experts for blight management."
@@ -2816,13 +2816,13 @@ const crops = [
           ]
         },
         {
-          "name": "Potato-Early-Blight",
-          "symptoms": "Potato Early Blight presents as dark, target-like spots on leaves, which gradually turn yellow and cause defoliation. It can reduce yield and quality.",
+          "name": "Potato Early Blight",
+          "symptoms": "Potato Early Blight presents as dark, target like spots on leaves, which gradually turn yellow and cause defoliation. It can reduce yield and quality.",
           "prevention": [
-            "1. Choose Early Blight-resistant potato varieties.",
+            "1. Choose Early Blight resistant potato varieties.",
             "2. Rotate crops to reduce pathogen buildup.",
             "3. Space plants for better air circulation.",
-            "4. Apply fungicides preventively during disease-prone periods.",
+            "4. Apply fungicides preventively during disease prone periods.",
             "5. Remove and destroy infected plant material.",
             "6. Implement strict sanitation protocols in the field.",
             "7. Adjust nitrogen fertilization for optimal growth.",
@@ -2847,13 +2847,13 @@ const crops = [
           ]
         },
         {
-          "name": "Potato-Black-Leg",
+          "name": "Potato Black Leg",
           "symptoms": "Potato Black Leg causes wilting and blackening of stems at the base, often with rotting tubers. It can lead to plant death and yield loss.",
           "prevention": [
-            "1. Plant certified disease-free seed potatoes.",
-            "2. Implement crop rotation with non-host crops.",
+            "1. Plant certified disease free seed potatoes.",
+            "2. Implement crop rotation with non host crops.",
             "3. Space plants for better air circulation.",
-            "4. Use well-draining soil to prevent waterlogging.",
+            "4. Use well draining soil to prevent waterlogging.",
             "5. Adjust planting depth to avoid burying stem nodes.",
             "6. Remove and destroy infected plant material.",
             "7. Implement strict sanitation protocols in the field.",
@@ -2878,13 +2878,13 @@ const crops = [
           ]
         },
         {
-          "name": "Potato-Scab",
+          "name": "Potato Scab",
           "symptoms": "Potato Scab causes rough, scaly patches on tuber surfaces. It can reduce marketability but generally doesn't affect the potato's edibility.",
           "prevention": [
-            "1. Plant disease-free seed potatoes.",
+            "1. Plant disease free seed potatoes.",
             "2. Maintain soil pH around 5.2 to discourage scab development.",
-            "3. Use well-rotted compost and organic matter.",
-            "4. Rotate crops with non-host plants.",
+            "3. Use well rotted compost and organic matter.",
+            "4. Rotate crops with non host plants.",
             "5. Monitor soil moisture levels to avoid excessive dryness.",
             "6. Adjust nitrogen fertilization for balanced growth.",
             "7. Implement strict sanitation protocols in the field.",
@@ -2894,8 +2894,8 @@ const crops = [
           ],
           "management": [
             "1. Practice soil management to improve pH levels.",
-            "2. Avoid over-irrigation or excessive moisture fluctuations.",
-            "3. Remove and discard scab-infested potatoes.",
+            "2. Avoid over irrigation or excessive moisture fluctuations.",
+            "3. Remove and discard scab infested potatoes.",
             "4. Implement crop rotation practices.",
             "5. Maintain detailed records of disease outbreaks and treatments.",
             "6. Monitor tuber quality and appearance closely.",
@@ -2909,13 +2909,13 @@ const crops = [
           ]
         },
         {
-          "name": "Potato-Root-Knot-Nematode",
-          "symptoms": "Potato Root-Knot Nematode causes stunted growth, yellowing of leaves, and the formation of galls or knots on roots. It can lead to reduced yield and root damage.",
+          "name": "Potato Root Knot Nematode",
+          "symptoms": "Potato Root Knot Nematode causes stunted growth, yellowing of leaves, and the formation of galls or knots on roots. It can lead to reduced yield and root damage.",
           "prevention": [
-            "1. Use nematode-resistant potato varieties.",
-            "2. Practice crop rotation with non-host plants.",
+            "1. Use nematode resistant potato varieties.",
+            "2. Practice crop rotation with non host plants.",
             "3. Implement soil solarization in affected areas.",
-            "4. Use certified nematode-free planting material.",
+            "4. Use certified nematode free planting material.",
             "5. Monitor soil nematode populations regularly.",
             "6. Adjust irrigation practices to avoid waterlogged soil.",
             "7. Implement strict sanitation protocols in the field.",
@@ -2930,28 +2930,28 @@ const crops = [
             "4. Conduct soil tests to monitor nematode levels.",
             "5. Maintain detailed records of disease outbreaks and treatments.",
             "6. Implement crop rotation practices.",
-            "7. Develop a Root-Knot Nematode management plan.",
+            "7. Develop a Root Knot Nematode management plan.",
             "8. Collaborate with neighboring growers to manage nematodes collectively.",
             "9. Consider nematicides as a last resort, consulting with experts.",
             "10. Adjust irrigation practices for nematode control."
           ],
           "pesticides": [
-            "For effective management of Potato Root-Knot Nematode, consult with local agricultural experts for suitable nematode-resistant potato varieties and biological control agents. Consider nematicides only as a last resort and follow recommended guidelines for application and safety."
+            "For effective management of Potato Root Knot Nematode, consult with local agricultural experts for suitable nematode resistant potato varieties and biological control agents. Consider nematicides only as a last resort and follow recommended guidelines for application and safety."
           ]
         }
       ]
     },
     {
-      "type": "vegetable-crop",
+      "type": "vegetable crop",
       "name": "tomato",
       "diseases": [
         {
-          "name": "Tomato-Septoria-Leaf-Spot",
+          "name": "Tomato Septoria Leaf Spot",
           "symptoms": "Tomato Septoria Leaf Spot displays as small, dark spots with a lighter center on tomato leaves. These spots can coalesce and lead to defoliation, reducing yield and fruit quality.",
           "prevention": [
-            "1. Plant disease-resistant tomato varieties.",
+            "1. Plant disease resistant tomato varieties.",
             "2. Space tomato plants for better air circulation.",
-            "3. Apply fungicides preventively during disease-prone periods.",
+            "3. Apply fungicides preventively during disease prone periods.",
             "4. Water the base of plants to avoid wetting leaves.",
             "5. Remove and destroy infected plant material.",
             "6. Implement strict sanitation protocols in the garden.",
@@ -2977,13 +2977,13 @@ const crops = [
           ]
         },
         {
-          "name": "Tomato-Early-Blight",
-          "symptoms": "Tomato Early Blight presents as dark, target-like lesions on lower leaves, which gradually spread and cause defoliation. It can reduce yield and fruit quality.",
+          "name": "Tomato Early Blight",
+          "symptoms": "Tomato Early Blight presents as dark, target like lesions on lower leaves, which gradually spread and cause defoliation. It can reduce yield and fruit quality.",
           "prevention": [
-            "1. Plant disease-resistant tomato varieties.",
+            "1. Plant disease resistant tomato varieties.",
             "2. Rotate tomato crops to reduce pathogen buildup.",
             "3. Space tomato plants for better air circulation.",
-            "4. Apply fungicides preventively during disease-prone periods.",
+            "4. Apply fungicides preventively during disease prone periods.",
             "5. Water the base of plants to avoid leaf wetness.",
             "6. Remove and destroy infected plant material.",
             "7. Implement strict sanitation protocols in the garden.",
@@ -3008,16 +3008,16 @@ const crops = [
           ]
         },
         {
-          "name": "Tomato-Late-Blight",
-          "symptoms": "Tomato Late Blight causes dark, water-soaked lesions on leaves and stems, often with a white, fuzzy growth on the underside. It leads to rapid defoliation and can rot fruit.",
+          "name": "Tomato Late Blight",
+          "symptoms": "Tomato Late Blight causes dark, water soaked lesions on leaves and stems, often with a white, fuzzy growth on the underside. It leads to rapid defoliation and can rot fruit.",
           "prevention": [
-            "1. Plant disease-resistant tomato varieties.",
+            "1. Plant disease resistant tomato varieties.",
             "2. Space tomato plants for better air circulation.",
-            "3. Apply fungicides preventively during disease-prone periods.",
+            "3. Apply fungicides preventively during disease prone periods.",
             "4. Water the base of plants to avoid leaf wetness.",
             "5. Remove and destroy infected plant material.",
             "6. Implement strict sanitation protocols in the garden.",
-            "7. Monitor weather conditions for blight-friendly periods.",
+            "7. Monitor weather conditions for blight friendly periods.",
             "8. Adjust nitrogen fertilization to avoid excessive growth.",
             "9. Rotate tomato crops to reduce pathogen buildup.",
             "10. Collaborate with experts for blight management."
@@ -3039,12 +3039,12 @@ const crops = [
           ]
         },
         {
-          "name": "Tomato-Blossom-End-Rot",
+          "name": "Tomato Blossom End Rot",
           "symptoms": "Tomato Blossom End Rot causes brown, sunken areas at the blossom end of fruit. It results from calcium deficiency and irregular watering.",
           "prevention": [
             "1. Maintain consistent and even watering practices.",
             "2. Adjust soil pH to optimal levels (around 6.5).",
-            "3. Apply calcium-containing amendments or sprays.",
+            "3. Apply calcium containing amendments or sprays.",
             "4. Mulch around tomato plants to maintain soil moisture.",
             "5. Avoid excessive nitrogen fertilization.",
             "6. Space tomato plants adequately for airflow.",
@@ -3056,7 +3056,7 @@ const crops = [
           "management": [
             "1. Remove affected fruit promptly to prevent further rot.",
             "2. Adjust watering practices to prevent drought stress.",
-            "3. Apply calcium-containing sprays as needed.",
+            "3. Apply calcium containing sprays as needed.",
             "4. Maintain detailed records of affected fruit.",
             "5. Monitor soil conditions for calcium availability.",
             "6. Isolate severely affected plants for containment.",
@@ -3070,14 +3070,14 @@ const crops = [
           ]
         },
         {
-          "name": "Tomato-Aphid-Infestation",
-          "symptoms": "Tomato Aphid Infestation is characterized by the presence of tiny, soft-bodied insects on the undersides of leaves. They can distort plant growth and transmit diseases.",
+          "name": "Tomato Aphid Infestation",
+          "symptoms": "Tomato Aphid Infestation is characterized by the presence of tiny, soft bodied insects on the undersides of leaves. They can distort plant growth and transmit diseases.",
           "prevention": [
             "1. Inspect tomato plants regularly for aphids.",
             "2. Use reflective mulch to deter aphids.",
             "3. Introduce natural predators like ladybugs and lacewings.",
             "4. Remove heavily infested leaves or plants.",
-            "5. Implement companion planting with aphid-repelling herbs.",
+            "5. Implement companion planting with aphid repelling herbs.",
             "6. Apply insecticidal soap or neem oil when necessary.",
             "7. Promote biodiversity in the garden to support natural enemies of aphids.",
             "8. Monitor weather conditions favoring aphid outbreaks.",
@@ -3103,17 +3103,17 @@ const crops = [
       ]
     },
     {
-      "type": "vegetable-crop",
+      "type": "vegetable crop",
       "name": "onion",
       "diseases": [
         {
-          "name": "Onion-Downy-Mildew",
-          "symptoms": "Onion Downy Mildew manifests as yellow-green lesions on leaves, often accompanied by purple-black spores on the underside. It causes leaf wilting and reduced bulb quality.",
+          "name": "Onion Downy Mildew",
+          "symptoms": "Onion Downy Mildew manifests as yellow green lesions on leaves, often accompanied by purple black spores on the underside. It causes leaf wilting and reduced bulb quality.",
           "prevention": [
-            "1. Plant disease-resistant onion varieties.",
+            "1. Plant disease resistant onion varieties.",
             "2. Space onion plants for better air circulation.",
             "3. Avoid overhead irrigation to minimize leaf wetness.",
-            "4. Apply fungicides preventively during disease-prone periods.",
+            "4. Apply fungicides preventively during disease prone periods.",
             "5. Remove and destroy infected plant material.",
             "6. Implement strict sanitation protocols in the field.",
             "7. Adjust nitrogen fertilization for balanced growth.",
@@ -3138,13 +3138,13 @@ const crops = [
           ]
         },
         {
-          "name": "Onion-White-Rot",
+          "name": "Onion White Rot",
           "symptoms": "Onion White Rot causes white, fluffy fungal growth on onion roots and basal plate. It results in plant wilting, stunted growth, and rotting bulbs.",
           "prevention": [
-            "1. Plant disease-resistant onion varieties.",
-            "2. Rotate onion crops with non-host plants for several years.",
+            "1. Plant disease resistant onion varieties.",
+            "2. Rotate onion crops with non host plants for several years.",
             "3. Practice good field hygiene to prevent soil contamination.",
-            "4. Use disease-free planting material.",
+            "4. Use disease free planting material.",
             "5. Adjust planting depth to avoid burying basal plate.",
             "6. Monitor soil moisture levels to prevent waterlogging.",
             "7. Implement strict sanitation protocols in the field.",
@@ -3169,12 +3169,12 @@ const crops = [
           ]
         },
         {
-          "name": "Onion-Smut",
+          "name": "Onion Smut",
           "symptoms": "Onion Smut appears as black, powdery spore masses on leaves, stems, and bulbs. It causes reduced bulb quality and can affect seed production.",
           "prevention": [
-            "1. Plant disease-resistant onion varieties.",
-            "2. Use disease-free onion seeds or sets.",
-            "3. Rotate onion crops with non-host plants.",
+            "1. Plant disease resistant onion varieties.",
+            "2. Use disease free onion seeds or sets.",
+            "3. Rotate onion crops with non host plants.",
             "4. Practice good field hygiene to prevent spore spread.",
             "5. Monitor and manage humidity levels.",
             "6. Adjust planting depth to avoid burying bulbs too deeply.",
@@ -3200,18 +3200,18 @@ const crops = [
           ]
         },
         {
-          "name": "Onion-Neck-Rot",
+          "name": "Onion Neck Rot",
           "symptoms": "Onion Neck Rot causes a soft, watery rot at the neck or stem base of onions. It often leads to lodging and reduced bulb quality during storage.",
           "prevention": [
-            "1. Plant well-cured and disease-free onion bulbs.",
+            "1. Plant well cured and disease free onion bulbs.",
             "2. Ensure proper drying and curing of harvested onions.",
-            "3. Store onions in a dry, well-ventilated area.",
+            "3. Store onions in a dry, well ventilated area.",
             "4. Avoid injuring bulbs during harvest or handling.",
             "5. Monitor humidity levels in storage facilities.",
             "6. Implement strict sanitation protocols during harvesting and storage.",
             "7. Educate onion growers on Neck Rot recognition.",
             "8. Collaborate with experts for disease management.",
-            "9. Consider post-harvest treatments for prevention.",
+            "9. Consider post harvest treatments for prevention.",
             "10. Maintain clean storage containers."
           ],
           "management": [
@@ -3222,16 +3222,16 @@ const crops = [
             "5. Maintain detailed records of affected batches.",
             "6. Develop an Onion Neck Rot management plan.",
             "7. Collaborate with neighboring onion growers to manage the disease collectively.",
-            "8. Consider fungicidal post-harvest treatments.",
+            "8. Consider fungicidal post harvest treatments.",
             "9. Adjust harvesting techniques to minimize bulb damage.",
             "10. Educate workers on proper handling and storage practices."
           ],
           "pesticides": [
-            "For effective management of Onion Neck Rot, consult with local agricultural experts for suitable post-harvest fungicidal treatments. Follow recommended guidelines for application and safety."
+            "For effective management of Onion Neck Rot, consult with local agricultural experts for suitable post harvest fungicidal treatments. Follow recommended guidelines for application and safety."
           ]
         },
         {
-          "name": "Onion-Thrips-Infestation",
+          "name": "Onion Thrips Infestation",
           "symptoms": "Onion Thrips Infestation results in silvering or stippling of onion leaves due to tiny, rasping insects. Severe infestations can reduce bulb size and quality.",
           "prevention": [
             "1. Inspect onion plants regularly for thrips.",
@@ -3264,16 +3264,16 @@ const crops = [
       ]
     },
     {
-      "type": "vegetable-crop",
+      "type": "vegetable crop",
       "name": "cauliflower",
       "diseases": [
         {
-          "name": "Cauliflower-Black-Rot",
-          "symptoms": "Cauliflower Black Rot appears as dark, V-shaped lesions on leaves, eventually causing wilting and death of the plant. It leads to reduced yield and poor-quality heads.",
+          "name": "Cauliflower Black Rot",
+          "symptoms": "Cauliflower Black Rot appears as dark, V shaped lesions on leaves, eventually causing wilting and death of the plant. It leads to reduced yield and poor quality heads.",
           "prevention": [
-            "1. Plant disease-resistant cauliflower varieties.",
-            "2. Rotate cauliflower crops with non-host plants.",
-            "3. Use disease-free cauliflower seeds or transplants.",
+            "1. Plant disease resistant cauliflower varieties.",
+            "2. Rotate cauliflower crops with non host plants.",
+            "3. Use disease free cauliflower seeds or transplants.",
             "4. Implement strict sanitation in the field.",
             "5. Avoid overhead irrigation to reduce leaf wetness.",
             "6. Space cauliflower plants for better air circulation.",
@@ -3292,31 +3292,31 @@ const crops = [
             "7. Monitor cauliflower head quality closely.",
             "8. Develop a Black Rot management plan.",
             "9. Collaborate with neighboring cauliflower growers to manage the disease collectively.",
-            "10. Consider copper-based fungicides for control."
+            "10. Consider copper based fungicides for control."
           ],
           "pesticides": [
-            "For effective management of Cauliflower Black Rot, consult with local agricultural experts for suitable copper-based fungicides. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
+            "For effective management of Cauliflower Black Rot, consult with local agricultural experts for suitable copper based fungicides. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
           ]
         },
         {
-          "name": "Cauliflower-Clubroot",
-          "symptoms": "Cauliflower Clubroot causes root swelling, stunting, and yellowing of leaves. Infected plants may have club-shaped roots. It leads to reduced head formation.",
+          "name": "Cauliflower Clubroot",
+          "symptoms": "Cauliflower Clubroot causes root swelling, stunting, and yellowing of leaves. Infected plants may have club shaped roots. It leads to reduced head formation.",
           "prevention": [
-            "1. Use clubroot-resistant cauliflower varieties.",
-            "2. Practice crop rotation with non-host plants.",
+            "1. Use clubroot resistant cauliflower varieties.",
+            "2. Practice crop rotation with non host plants.",
             "3. Improve soil drainage to prevent waterlogged conditions.",
             "4. Adjust soil pH to slightly acidic levels (around 6.5).",
-            "5. Use disease-free cauliflower seeds or transplants.",
+            "5. Use disease free cauliflower seeds or transplants.",
             "6. Implement strict sanitation in the field.",
             "7. Educate cauliflower growers on Clubroot recognition.",
             "8. Collaborate with experts for disease management.",
             "9. Consider biofungicides for control.",
-            "10. Monitor for clubroot-infested soil."
+            "10. Monitor for clubroot infested soil."
           ],
           "management": [
             "1. Remove and destroy infected cauliflower plants and roots.",
             "2. Improve soil structure and drainage for prevention.",
-            "3. Practice crop rotation with non-host plants for several years.",
+            "3. Practice crop rotation with non host plants for several years.",
             "4. Promote beneficial microorganisms for biological control.",
             "5. Conduct soil tests to monitor clubroot levels.",
             "6. Maintain detailed records of disease outbreaks and treatments.",
@@ -3330,13 +3330,13 @@ const crops = [
           ]
         },
         {
-          "name": "Cauliflower-White-Rust",
+          "name": "Cauliflower White Rust",
           "symptoms": "Cauliflower White Rust appears as white pustules on leaves and stems. It leads to leaf yellowing, wilting, and reduced head quality.",
           "prevention": [
-            "1. Plant disease-resistant cauliflower varieties.",
+            "1. Plant disease resistant cauliflower varieties.",
             "2. Space cauliflower plants for better air circulation.",
             "3. Avoid overhead irrigation to reduce leaf wetness.",
-            "4. Apply fungicides preventively during disease-prone periods.",
+            "4. Apply fungicides preventively during disease prone periods.",
             "5. Remove and destroy infected plant material.",
             "6. Implement strict sanitation in the field.",
             "7. Monitor weather conditions for White Rust risks.",
@@ -3361,16 +3361,16 @@ const crops = [
           ]
         },
         {
-          "name": "Cauliflower-Damping-Off",
+          "name": "Cauliflower Damping Off",
           "symptoms": "Cauliflower Damping Off leads to seedling wilting, damping, and decay at the soil line. Seedlings may collapse, affecting stand establishment.",
           "prevention": [
-            "1. Use disease-free cauliflower seeds or transplants.",
+            "1. Use disease free cauliflower seeds or transplants.",
             "2. Sterilize soil or planting media before sowing.",
             "3. Maintain proper soil drainage to prevent excess moisture.",
             "4. Space cauliflower seedlings adequately for airflow.",
             "5. Avoid overwatering and keep seedlings dry.",
             "6. Implement strict sanitation in the nursery.",
-            "7. Use fungicide-treated seeds when necessary.",
+            "7. Use fungicide treated seeds when necessary.",
             "8. Educate cauliflower growers on Damping Off recognition.",
             "9. Collaborate with experts for disease management.",
             "10. Consider biological control agents."
@@ -3392,14 +3392,14 @@ const crops = [
           ]
         },
         {
-          "name": "Cauliflower-Aphid-Infestation",
-          "symptoms": "Cauliflower Aphid Infestation is characterized by the presence of tiny, soft-bodied insects on the undersides of leaves. They can distort plant growth and transmit diseases.",
+          "name": "Cauliflower Aphid Infestation",
+          "symptoms": "Cauliflower Aphid Infestation is characterized by the presence of tiny, soft bodied insects on the undersides of leaves. They can distort plant growth and transmit diseases.",
           "prevention": [
             "1. Inspect cauliflower plants regularly for aphids.",
             "2. Use reflective mulch to deter aphids.",
             "3. Introduce natural predators like ladybugs and lacewings.",
             "4. Remove heavily infested leaves or plants.",
-            "5. Implement companion planting with aphid-repelling herbs.",
+            "5. Implement companion planting with aphid repelling herbs.",
             "6. Apply insecticidal soap or neem oil when necessary.",
             "7. Promote biodiversity in the garden to support natural enemies of aphids.",
             "8. Monitor weather conditions favoring aphid outbreaks.",
@@ -3425,18 +3425,18 @@ const crops = [
       ]
     },
     {
-      "type": "vegetable-crop",
+      "type": "vegetable crop",
       "name": "carrot",
       "diseases": [
         {
-          "name": "Carrot-Rust-Fly",
+          "name": "Carrot Rust Fly",
           "symptoms": "Carrot Rust Fly infestation results in brown tunnels or galleries inside carrot roots. Affected carrots become disfigured, cracked, and inedible.",
           "prevention": [
             "1. Use floating row covers to prevent adult fly access.",
-            "2. Practice crop rotation with non-host plants.",
+            "2. Practice crop rotation with non host plants.",
             "3. Time carrot planting to avoid peak fly activity.",
             "4. Remove and destroy infested plant debris promptly.",
-            "5. Monitor for adult flies and egg-laying activity.",
+            "5. Monitor for adult flies and egg laying activity.",
             "6. Implement strict sanitation in the field.",
             "7. Educate carrot growers on Rust Fly recognition.",
             "8. Collaborate with experts for pest management.",
@@ -3460,13 +3460,13 @@ const crops = [
           ]
         },
         {
-          "name": "Carrot-Leaf-Spot",
+          "name": "Carrot Leaf Spot",
           "symptoms": "Carrot Leaf Spot appears as circular, brown lesions with a dark border on carrot leaves. It can lead to defoliation and reduced yield.",
           "prevention": [
-            "1. Choose disease-resistant carrot varieties.",
+            "1. Choose disease resistant carrot varieties.",
             "2. Space carrot plants for better air circulation.",
             "3. Avoid overhead irrigation to reduce leaf wetness.",
-            "4. Apply fungicides preventively during disease-prone periods.",
+            "4. Apply fungicides preventively during disease prone periods.",
             "5. Remove and destroy infected plant material.",
             "6. Implement strict sanitation in the field.",
             "7. Monitor weather conditions for Leaf Spot risks.",
@@ -3487,27 +3487,27 @@ const crops = [
             "10. Adjust planting schedules to avoid peak disease pressure."
           ],
           "pesticides": [
-            "For effective management of Carrot Leaf Spot, consult with local agricultural experts for suitable fungicides like Chlorothalonil or Copper-based products. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
+            "For effective management of Carrot Leaf Spot, consult with local agricultural experts for suitable fungicides like Chlorothalonil or Copper based products. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
           ]
         },
         {
-          "name": "Carrot-Root-Nematodes",
+          "name": "Carrot Root Nematodes",
           "symptoms": "Carrot Root Nematodes cause swollen, deformed, and stunted carrot roots. Affected carrots are often twisted and misshapen.",
           "prevention": [
-            "1. Practice crop rotation with non-host plants.",
-            "2. Use certified nematode-free carrot seeds.",
+            "1. Practice crop rotation with non host plants.",
+            "2. Use certified nematode free carrot seeds.",
             "3. Maintain proper soil drainage to prevent waterlogged conditions.",
             "4. Promote soil health for nematode suppression.",
-            "5. Monitor for nematode-infested soil.",
+            "5. Monitor for nematode infested soil.",
             "6. Educate carrot growers on nematode recognition.",
             "7. Collaborate with experts for nematode management.",
             "8. Consider soil solarization for nematode control.",
-            "9. Use nematode-resistant cover crops.",
+            "9. Use nematode resistant cover crops.",
             "10. Adjust planting schedules to avoid peak nematode activity."
           ],
           "management": [
             "1. Remove and discard infested carrots and root debris.",
-            "2. Implement crop rotation with non-host plants for several years.",
+            "2. Implement crop rotation with non host plants for several years.",
             "3. Promote beneficial nematode predators for biological control.",
             "4. Conduct soil tests to monitor nematode levels.",
             "5. Maintain detailed records of nematode infestation.",
@@ -3522,14 +3522,14 @@ const crops = [
           ]
         },
         {
-          "name": "Carrot-Aphid-Infestation",
+          "name": "Carrot Aphid Infestation",
           "symptoms": "Carrot Aphid Infestation results in curled, distorted, and yellowed carrot leaves. Aphids can transmit plant viruses, affecting carrot health.",
           "prevention": [
             "1. Inspect carrot plants regularly for aphids.",
             "2. Use reflective mulch to deter aphids.",
             "3. Introduce natural predators like ladybugs and lacewings.",
             "4. Remove heavily infested leaves or plants.",
-            "5. Implement companion planting with aphid-repelling herbs.",
+            "5. Implement companion planting with aphid repelling herbs.",
             "6. Apply insecticidal soap or neem oil when necessary.",
             "7. Promote biodiversity in the garden to support natural enemies of aphids.",
             "8. Monitor weather conditions favoring aphid outbreaks.",
@@ -3553,12 +3553,12 @@ const crops = [
           ]
         },
         {
-          "name": "Carrot-Powdery-Mildew",
+          "name": "Carrot Powdery Mildew",
           "symptoms": "Carrot Powdery Mildew appears as white, powdery spots on carrot leaves and stems. It can lead to leaf yellowing, wilting, and reduced root growth.",
           "prevention": [
             "1. Space carrot plants for better air circulation.",
             "2. Avoid overhead irrigation to reduce leaf wetness.",
-            "3. Apply fungicides preventively during disease-prone periods.",
+            "3. Apply fungicides preventively during disease prone periods.",
             "4. Remove and destroy infected plant material.",
             "5. Implement strict sanitation in the field.",
             "6. Monitor weather conditions for Powdery Mildew risks.",
@@ -3576,7 +3576,7 @@ const crops = [
             "6. Isolate heavily affected areas for containment.",
             "7. Develop a Powdery Mildew management plan.",
             "8. Collaborate with neighboring carrot growers to manage the disease collectively.",
-            "9. Consider organic fungicides or sulfur-based products.",
+            "9. Consider organic fungicides or sulfur based products.",
             "10. Adjust planting schedules to avoid peak disease pressure."
           ],
           "pesticides": [
@@ -3586,15 +3586,15 @@ const crops = [
       ]
     },
     {
-      "type": "vegetable-crop",
+      "type": "vegetable crop",
       "name": "brinjal",
       "diseases": [
         {
-          "name": "Brinjal-Bacterial-Wilt",
+          "name": "Brinjal Bacterial Wilt",
           "symptoms": "Brinjal Bacterial Wilt causes wilting, yellowing, and drooping of leaves. Affected plants may show black streaks in the vascular tissue, leading to plant death.",
           "prevention": [
-            "1. Use disease-free brinjal seeds or transplants.",
-            "2. Practice crop rotation with non-host plants.",
+            "1. Use disease free brinjal seeds or transplants.",
+            "2. Practice crop rotation with non host plants.",
             "3. Implement strict sanitation in the field.",
             "4. Avoid overhead irrigation to reduce leaf wetness.",
             "5. Remove and destroy infected plant material promptly.",
@@ -3606,22 +3606,22 @@ const crops = [
           ],
           "management": [
             "1. Remove and discard infected brinjal plants promptly.",
-            "2. Practice crop rotation with non-host plants for several years.",
+            "2. Practice crop rotation with non host plants for several years.",
             "3. Promote soil health for disease suppression.",
             "4. Conduct regular field inspections for early detection.",
             "5. Maintain detailed records of disease outbreaks and treatments.",
             "6. Isolate severely affected areas for containment.",
             "7. Develop a Bacterial Wilt management plan.",
             "8. Collaborate with neighboring brinjal growers to manage the disease collectively.",
-            "9. Consider copper-based bactericides for control.",
+            "9. Consider copper based bactericides for control.",
             "10. Adjust planting schedules to avoid peak disease pressure."
           ],
           "pesticides": [
-            "For effective management of Brinjal Bacterial Wilt, consult with local agricultural experts for suitable copper-based bactericides. Follow recommended guidelines for application and safety precautions."
+            "For effective management of Brinjal Bacterial Wilt, consult with local agricultural experts for suitable copper based bactericides. Follow recommended guidelines for application and safety precautions."
           ]
         },
         {
-          "name": "Brinjal-Fruit-and-Shoot-Borer",
+          "name": "Brinjal Fruit and Shoot Borer",
           "symptoms": "Brinjal Fruit and Shoot Borer damage is characterized by holes in shoots and fruits, along with frass (excrement) near entry points. It can lead to reduced yield and fruit quality.",
           "prevention": [
             "1. Inspect brinjal plants regularly for borer activity.",
@@ -3652,15 +3652,15 @@ const crops = [
           ]
         },
         {
-          "name": "Brinjal-Early-Blight",
+          "name": "Brinjal Early Blight",
           "symptoms": "Brinjal Early Blight presents as dark, concentric rings with a yellow halo on leaves. It can lead to leaf yellowing, defoliation, and reduced fruit production.",
           "prevention": [
             "1. Space brinjal plants for better air circulation.",
             "2. Avoid overhead irrigation to reduce leaf wetness.",
-            "3. Apply fungicides preventively during disease-prone periods.",
+            "3. Apply fungicides preventively during disease prone periods.",
             "4. Remove and destroy infected plant material promptly.",
             "5. Implement strict sanitation in the field.",
-            "6. Use disease-resistant brinjal varieties when available.",
+            "6. Use disease resistant brinjal varieties when available.",
             "7. Monitor weather conditions for Early Blight risks.",
             "8. Adjust nitrogen fertilization for balanced growth.",
             "9. Educate brinjal growers on Early Blight recognition.",
@@ -3683,10 +3683,10 @@ const crops = [
           ]
         },
         {
-          "name": "Brinjal-Leaf-Curl-Virus",
+          "name": "Brinjal Leaf Curl Virus",
           "symptoms": "Brinjal Leaf Curl Virus causes curling and yellowing of leaves, stunted growth, and reduced fruit production. Infected plants may exhibit leaf distortion and mosaic patterns.",
           "prevention": [
-            "1. Use virus-tested brinjal seeds or transplants.",
+            "1. Use virus tested brinjal seeds or transplants.",
             "2. Control whitefly populations through monitoring and trapping.",
             "3. Remove and destroy infected plants promptly.",
             "4. Implement strict sanitation in the field.",
@@ -3714,15 +3714,15 @@ const crops = [
           ]
         },
         {
-          "name": "Brinjal-Powdery-Mildew",
+          "name": "Brinjal Powdery Mildew",
           "symptoms": "Brinjal Powdery Mildew appears as white, powdery spots on brinjal leaves, stems, and fruits. It can lead to leaf yellowing, wilting, and reduced fruit quality.",
           "prevention": [
             "1. Space brinjal plants for better air circulation.",
             "2. Avoid overhead irrigation to reduce leaf wetness.",
-            "3. Apply fungicides preventively during disease-prone periods.",
+            "3. Apply fungicides preventively during disease prone periods.",
             "4. Remove and destroy infected plant material promptly.",
             "5. Implement strict sanitation in the field.",
-            "6. Use disease-resistant brinjal varieties when available.",
+            "6. Use disease resistant brinjal varieties when available.",
             "7. Monitor weather conditions for Powdery Mildew risks.",
             "8. Adjust nitrogen fertilization for balanced growth.",
             "9. Educate brinjal growers on Powdery Mildew recognition.",
@@ -3747,19 +3747,19 @@ const crops = [
       ]
     },
     {
-      "type": "vegetable-crop",
+      "type": "vegetable crop",
       "name": "peas",
       "diseases": [
         {
-          "name": "Pea-Downy-Mildew",
+          "name": "Pea Downy Mildew",
           "symptoms": "Pea Downy Mildew presents as yellow or brown patches on pea leaves, accompanied by fuzzy gray to purplish growth on the undersides. It can lead to leaf wilting and reduced pod production.",
           "prevention": [
             "1. Space pea plants for better air circulation.",
             "2. Avoid overhead irrigation to reduce leaf wetness.",
-            "3. Apply fungicides preventively during disease-prone periods.",
+            "3. Apply fungicides preventively during disease prone periods.",
             "4. Remove and destroy infected plant material promptly.",
             "5. Implement strict sanitation in the field.",
-            "6. Use disease-resistant pea varieties when available.",
+            "6. Use disease resistant pea varieties when available.",
             "7. Monitor weather conditions for Downy Mildew risks.",
             "8. Adjust nitrogen fertilization for balanced growth.",
             "9. Educate pea growers on Downy Mildew recognition.",
@@ -3782,15 +3782,15 @@ const crops = [
           ]
         },
         {
-          "name": "Pea-Powdery-Mildew",
+          "name": "Pea Powdery Mildew",
           "symptoms": "Pea Powdery Mildew appears as white, powdery spots on pea leaves and stems. It can lead to leaf yellowing, wilting, and reduced pod quality.",
           "prevention": [
             "1. Space pea plants for better air circulation.",
             "2. Avoid overhead irrigation to reduce leaf wetness.",
-            "3. Apply fungicides preventively during disease-prone periods.",
+            "3. Apply fungicides preventively during disease prone periods.",
             "4. Remove and destroy infected plant material promptly.",
             "5. Implement strict sanitation in the field.",
-            "6. Use disease-resistant pea varieties when available.",
+            "6. Use disease resistant pea varieties when available.",
             "7. Monitor weather conditions for Powdery Mildew risks.",
             "8. Adjust nitrogen fertilization for balanced growth.",
             "9. Educate pea growers on Powdery Mildew recognition.",
@@ -3813,23 +3813,23 @@ const crops = [
           ]
         },
         {
-          "name": "Pea-Root-Rot",
+          "name": "Pea Root Rot",
           "symptoms": "Pea Root Rot causes stunted growth, yellowing, and wilting of pea plants. The roots may show dark discoloration, rot, and decay.",
           "prevention": [
-            "1. Use disease-free pea seeds or transplants.",
-            "2. Practice crop rotation with non-host plants.",
+            "1. Use disease free pea seeds or transplants.",
+            "2. Practice crop rotation with non host plants.",
             "3. Implement strict sanitation in the field.",
             "4. Improve soil drainage to prevent waterlogged conditions.",
             "5. Promote soil health for disease suppression.",
             "6. Monitor for soilborne pathogens.",
             "7. Collaborate with experts for Root Rot management.",
             "8. Adjust irrigation practices to prevent excess moisture.",
-            "9. Use well-draining containers for container gardening.",
+            "9. Use well draining containers for container gardening.",
             "10. Educate pea growers on Root Rot recognition."
           ],
           "management": [
             "1. Remove and discard affected pea plants and root debris promptly.",
-            "2. Practice crop rotation with non-host plants for several years.",
+            "2. Practice crop rotation with non host plants for several years.",
             "3. Promote beneficial microbes and antagonists for biological control.",
             "4. Conduct soil tests to monitor pathogen levels.",
             "5. Maintain detailed records of disease outbreaks and treatments.",
@@ -3837,15 +3837,15 @@ const crops = [
             "7. Develop a Root Rot management plan.",
             "8. Collaborate with neighboring pea growers to manage the disease collectively.",
             "9. Consider biofungicides or biological control agents.",
-            "10. Adjust planting schedules to avoid high-risk periods for Root Rot."
+            "10. Adjust planting schedules to avoid high risk periods for Root Rot."
           ],
           "pesticides": [
             "For effective management of Pea Root Rot, consult with local agricultural experts for suitable biofungicides or chemical treatments. Use chemical treatments cautiously and follow recommended guidelines for application and safety precautions."
           ]
         },
         {
-          "name": "Pea-Aphid-Infestation",
-          "symptoms": "Pea Aphid Infestation is characterized by clusters of small, soft-bodied insects on pea plants. They feed on plant sap, causing yellowing, curling leaves, and reduced pea yields.",
+          "name": "Pea Aphid Infestation",
+          "symptoms": "Pea Aphid Infestation is characterized by clusters of small, soft bodied insects on pea plants. They feed on plant sap, causing yellowing, curling leaves, and reduced pea yields.",
           "prevention": [
             "1. Inspect pea plants regularly for aphid colonies.",
             "2. Release natural predators like ladybugs and lacewings.",
@@ -3875,10 +3875,10 @@ const crops = [
           ]
         },
         {
-          "name": "Pea-Pea-Mosaic-Virus",
-          "symptoms": "Pea Pea Mosaic Virus causes mottled, mosaic-like patterns on pea leaves. Infected plants may exhibit stunted growth, leaf distortion, and reduced pod development.",
+          "name": "Pea Pea Mosaic Virus",
+          "symptoms": "Pea Pea Mosaic Virus causes mottled, mosaic like patterns on pea leaves. Infected plants may exhibit stunted growth, leaf distortion, and reduced pod development.",
           "prevention": [
-            "1. Use virus-tested pea seeds or transplants.",
+            "1. Use virus tested pea seeds or transplants.",
             "2. Control aphid populations through monitoring and trapping.",
             "3. Remove and destroy infected plants promptly.",
             "4. Implement strict sanitation in the field.",
@@ -3908,14 +3908,14 @@ const crops = [
       ]
     },
     {
-      "type": "vegetable-crop",
+      "type": "vegetable crop",
       "name": "okra",
       "diseases": [
         {
-          "name": "Okra-Yellow-Mosaic-Virus",
-          "symptoms": "Okra Yellow Mosaic Virus causes mottled yellowing and mosaic-like patterns on okra leaves. Infected plants may exhibit stunted growth, leaf distortion, and reduced pod development.",
+          "name": "Okra Yellow Mosaic Virus",
+          "symptoms": "Okra Yellow Mosaic Virus causes mottled yellowing and mosaic like patterns on okra leaves. Infected plants may exhibit stunted growth, leaf distortion, and reduced pod development.",
           "prevention": [
-            "1. Use virus-tested okra seeds or transplants.",
+            "1. Use virus tested okra seeds or transplants.",
             "2. Control aphid populations through monitoring and trapping.",
             "3. Remove and destroy infected plants promptly.",
             "4. Implement strict sanitation in the field.",
@@ -3943,15 +3943,15 @@ const crops = [
           ]
         },
         {
-          "name": "Okra-Powdery-Mildew",
+          "name": "Okra Powdery Mildew",
           "symptoms": "Okra Powdery Mildew appears as white, powdery spots on okra leaves and stems. It can lead to leaf yellowing, wilting, and reduced pod quality.",
           "prevention": [
             "1. Space okra plants for better air circulation.",
             "2. Avoid overhead irrigation to reduce leaf wetness.",
-            "3. Apply fungicides preventively during disease-prone periods.",
+            "3. Apply fungicides preventively during disease prone periods.",
             "4. Remove and destroy infected plant material promptly.",
             "5. Implement strict sanitation in the field.",
-            "6. Use disease-resistant okra varieties when available.",
+            "6. Use disease resistant okra varieties when available.",
             "7. Monitor weather conditions for Powdery Mildew risks.",
             "8. Adjust nitrogen fertilization for balanced growth.",
             "9. Educate okra growers on Powdery Mildew recognition.",
@@ -3974,7 +3974,7 @@ const crops = [
           ]
         },
         {
-          "name": "Okra-Leaf-Spot",
+          "name": "Okra Leaf Spot",
           "symptoms": "Okra Leaf Spot presents as small, dark spots with yellow halos on okra leaves. It can lead to leaf yellowing, defoliation, and reduced fruit production.",
           "prevention": [
             "1. Space okra plants for better air circulation.",
@@ -3982,7 +3982,7 @@ const crops = [
             "3. Apply fungicides during wet periods as a preventive measure.",
             "4. Remove and destroy infected plant material promptly.",
             "5. Implement strict sanitation in the field.",
-            "6. Use disease-resistant okra varieties when available.",
+            "6. Use disease resistant okra varieties when available.",
             "7. Monitor weather conditions for Leaf Spot risks.",
             "8. Adjust nitrogen fertilization for balanced growth.",
             "9. Educate okra growers on Leaf Spot recognition.",
@@ -4005,15 +4005,15 @@ const crops = [
           ]
         },
         {
-          "name": "Okra-Rust",
+          "name": "Okra Rust",
           "symptoms": "Okra Rust appears as rusty orange to brown pustules on the undersides of okra leaves. It can lead to leaf yellowing, wilting, and reduced pod quality.",
           "prevention": [
             "1. Space okra plants for better air circulation.",
             "2. Avoid overhead irrigation to reduce leaf wetness.",
-            "3. Apply fungicides preventively during disease-prone periods.",
+            "3. Apply fungicides preventively during disease prone periods.",
             "4. Remove and destroy infected plant material promptly.",
             "5. Implement strict sanitation in the field.",
-            "6. Use disease-resistant okra varieties when available.",
+            "6. Use disease resistant okra varieties when available.",
             "7. Monitor weather conditions for Rust risks.",
             "8. Adjust nitrogen fertilization for balanced growth.",
             "9. Educate okra growers on Rust recognition.",
@@ -4036,23 +4036,23 @@ const crops = [
           ]
         },
         {
-          "name": "Okra-Root-Knot-Nematode",
+          "name": "Okra Root Knot Nematode",
           "symptoms": "Okra Root Knot Nematode infestation causes stunted growth, yellowing, and wilting of okra plants. The roots may develop swollen, knotty galls.",
           "prevention": [
-            "1. Use nematode-resistant okra varieties when available.",
-            "2. Practice crop rotation with non-host plants.",
+            "1. Use nematode resistant okra varieties when available.",
+            "2. Practice crop rotation with non host plants.",
             "3. Implement strict sanitation in the field.",
             "4. Use beneficial nematode antagonists for biological control.",
             "5. Promote soil health for nematode suppression.",
             "6. Monitor for nematode populations in the soil.",
             "7. Collaborate with experts for Nematode management.",
             "8. Adjust irrigation practices to prevent excess moisture.",
-            "9. Use well-draining containers for container gardening.",
+            "9. Use well draining containers for container gardening.",
             "10. Educate okra growers on Nematode recognition."
           ],
           "management": [
             "1. Remove and discard affected okra plants and root galls promptly.",
-            "2. Practice crop rotation with non-host plants for several years.",
+            "2. Practice crop rotation with non host plants for several years.",
             "3. Promote beneficial nematodes and antagonists for biological control.",
             "4. Conduct soil tests to monitor nematode levels.",
             "5. Maintain detailed records of nematode infestations and treatments.",
@@ -4060,7 +4060,7 @@ const crops = [
             "7. Develop an Okra Root Knot Nematode management plan.",
             "8. Collaborate with neighboring okra growers to manage nematodes collectively.",
             "9. Consider biopesticides or biological control agents.",
-            "10. Adjust planting schedules to avoid high-risk periods for nematodes."
+            "10. Adjust planting schedules to avoid high risk periods for nematodes."
           ],
           "pesticides": [
             "For effective management of Okra Root Knot Nematode, consult with local agricultural experts for suitable biopesticides or chemical treatments. Use chemical treatments cautiously and follow recommended guidelines for application and safety precautions."
@@ -4069,14 +4069,14 @@ const crops = [
       ]
     },
     {
-      "type": "vegetable-crop",
-      "name": "bitter-gourd",
+      "type": "vegetable crop",
+      "name": "bitter gourd",
       "diseases": [
         {
-          "name": "Bitter-Gourd-Yellow-Mosaic-Virus",
-          "symptoms": "Bitter Gourd Yellow Mosaic Virus causes mottled yellowing and mosaic-like patterns on bitter gourd leaves. Infected plants may exhibit stunted growth, leaf distortion, and reduced fruit production.",
+          "name": "Bitter Gourd Yellow Mosaic Virus",
+          "symptoms": "Bitter Gourd Yellow Mosaic Virus causes mottled yellowing and mosaic like patterns on bitter gourd leaves. Infected plants may exhibit stunted growth, leaf distortion, and reduced fruit production.",
           "prevention": [
-            "1. Use virus-tested bitter gourd seeds or transplants.",
+            "1. Use virus tested bitter gourd seeds or transplants.",
             "2. Control aphid populations through monitoring and trapping.",
             "3. Remove and destroy infected plants promptly.",
             "4. Implement strict sanitation in the field.",
@@ -4104,15 +4104,15 @@ const crops = [
           ]
         },
         {
-          "name": "Bitter-Gourd-Powdery-Mildew",
+          "name": "Bitter Gourd Powdery Mildew",
           "symptoms": "Bitter Gourd Powdery Mildew appears as white, powdery spots on leaves and stems. It can lead to leaf yellowing, wilting, and reduced fruit quality.",
           "prevention": [
             "1. Space plants for better air circulation.",
             "2. Avoid overhead irrigation to reduce leaf wetness.",
-            "3. Apply fungicides preventively during disease-prone periods.",
+            "3. Apply fungicides preventively during disease prone periods.",
             "4. Remove and destroy infected plant material promptly.",
             "5. Implement strict sanitation in the field.",
-            "6. Use disease-resistant bitter gourd varieties when available.",
+            "6. Use disease resistant bitter gourd varieties when available.",
             "7. Monitor weather conditions for Powdery Mildew risks.",
             "8. Adjust nitrogen fertilization for balanced growth.",
             "9. Educate growers on Powdery Mildew recognition.",
@@ -4135,7 +4135,7 @@ const crops = [
           ]
         },
         {
-          "name": "Bitter-Gourd-Anthracnose",
+          "name": "Bitter Gourd Anthracnose",
           "symptoms": "Bitter Gourd Anthracnose leads to circular, sunken lesions on fruit and leaves, often with dark, concentric rings. Infected fruits become discolored and may ooze pinkish spore masses.",
           "prevention": [
             "1. Space plants for better air circulation.",
@@ -4143,7 +4143,7 @@ const crops = [
             "3. Apply fungicides during wet periods as a preventive measure.",
             "4. Remove and destroy infected plant material promptly.",
             "5. Implement strict sanitation in the field.",
-            "6. Use disease-resistant bitter gourd varieties when available.",
+            "6. Use disease resistant bitter gourd varieties when available.",
             "7. Monitor weather conditions for Anthracnose risks.",
             "8. Adjust nitrogen fertilization for balanced growth.",
             "9. Educate growers on Anthracnose recognition.",
@@ -4166,7 +4166,7 @@ const crops = [
           ]
         },
         {
-          "name": "Bitter-Gourd-Leaf-Spot",
+          "name": "Bitter Gourd Leaf Spot",
           "symptoms": "Bitter Gourd Leaf Spot causes small, dark spots with yellow halos on leaves. It can lead to leaf yellowing, defoliation, and reduced fruit production.",
           "prevention": [
             "1. Space plants for better air circulation.",
@@ -4174,7 +4174,7 @@ const crops = [
             "3. Apply fungicides during wet periods as a preventive measure.",
             "4. Remove and destroy infected plant material promptly.",
             "5. Implement strict sanitation in the field.",
-            "6. Use disease-resistant bitter gourd varieties when available.",
+            "6. Use disease resistant bitter gourd varieties when available.",
             "7. Monitor weather conditions for Leaf Spot risks.",
             "8. Adjust nitrogen fertilization for balanced growth.",
             "9. Educate growers on Leaf Spot recognition.",
@@ -4193,19 +4193,19 @@ const crops = [
             "10. Adjust planting schedules to avoid peak disease pressure."
           ],
           "pesticides": [
-            "For effective management of Bitter Gourd Leaf Spot, consult with local agricultural experts for suitable fungicides like Copper-based products or Azoxystrobin. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
+            "For effective management of Bitter Gourd Leaf Spot, consult with local agricultural experts for suitable fungicides like Copper based products or Azoxystrobin. Follow the manufacturer's guidelines for precise application, dosage, and safety precautions."
           ]
         },
         {
-          "name": "Bitter-Gourd-Downy-Mildew",
-          "symptoms": "Bitter Gourd Downy Mildew appears as yellow, angular spots on upper leaf surfaces, with grayish-purple spore growth on the undersides. It can lead to leaf yellowing, defoliation, and reduced fruit quality.",
+          "name": "Bitter Gourd Downy Mildew",
+          "symptoms": "Bitter Gourd Downy Mildew appears as yellow, angular spots on upper leaf surfaces, with grayish purple spore growth on the undersides. It can lead to leaf yellowing, defoliation, and reduced fruit quality.",
           "prevention": [
             "1. Space plants for better air circulation.",
             "2. Avoid overhead irrigation to reduce leaf wetness.",
             "3. Apply fungicides during wet periods as a preventive measure.",
             "4. Remove and destroy infected plant material promptly.",
             "5. Implement strict sanitation in the field.",
-            "6. Use disease-resistant bitter gourd varieties when available.",
+            "6. Use disease resistant bitter gourd varieties when available.",
             "7. Monitor weather conditions for Downy Mildew risks.",
             "8. Adjust nitrogen fertilization for balanced growth.",
             "9. Educate growers on Downy Mildew recognition.",
